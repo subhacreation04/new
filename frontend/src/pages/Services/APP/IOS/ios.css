@@ -1,0 +1,468 @@
+/* Main ios Development Container */
+.ios-dev-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    max-width: 2000px;
+    height: 450px;
+    margin-top: 120px;
+    background: #343888;
+  }
+  
+  .ios-content {
+    width: 100%;
+  }
+  
+  .ios-content h1 {
+    font-size: 3rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+    padding: 15px;
+  }
+  
+  .ios-content h2 {
+    text-align: left;
+    font-size: 1.5rem;
+    color: #dddcdc;
+    line-height: 1.5;
+    padding: 15px;
+    margin-left: 5px;
+  }
+  
+  .ios-image {
+    width: 1500px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .ios-image img {
+    width: 1000px;
+    height: 450px;
+    border-radius: 1px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+/* Large Devices (Desktops) */
+@media screen and (max-width:1440px ) and (min-width:1025px) {
+  /* Main ios Development Container */
+  .ios-dev-container {
+   display: flex;
+   align-items: center; 
+    width: 100%;
+   height: 450px;
+   margin-top: 120px  ;
+   background: #343888;
+ }
+ 
+ .ios-content {
+   width: 100%;
+ }
+ 
+ .ios-content h1 {
+   font-size: 2.2rem;
+   color: #ffffff;
+   margin-bottom: 10px;
+   padding: 15px;
+ }
+ 
+ .ios-content h2 {
+   font-size: 1.2rem;
+   color: #dddcdc;
+   line-height: 1.5;
+   padding: 15px;
+   
+ }
+ 
+ .ios-image {
+   max-width: 800px;
+   height: 100%;
+   display: flex;
+   
+ }
+ 
+ .ios-image img {
+   width: 100%;
+   height: 450px;
+   border-radius: 1px;
+   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+ }
+
+ .ios-tech-item {
+   display: flex;
+   max-width: 450px;
+   margin: auto;
+   align-items: center;
+   padding: 15px;
+   border: 2px solid;
+   border-radius: 10px;
+   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+   background: #f8f9fa;
+   margin-bottom: 30px;
+   transition: transform 0.3s ease-in-out;
+ }
+ 
+ .ios-services-container h2{
+   margin-top: 10px;
+   font-size: 3rem;
+   margin-bottom: 10px;
+}
+ .ios-services-grid {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   margin: 10px auto;
+   width: 950px;
+   gap: 20px;
+   justify-content: center;
+   align-items: center;
+   
+ }
+
+
+ .ios-newprocess{
+   display: flex;
+   flex-direction: column;
+ }
+
+ .ios-image-content{
+   display: flex;
+  
+ }
+
+ .ios-image-content ul{
+   margin-top: 40px;
+   font-size: 1.5rem;
+   margin-left: 10px;
+ }
+
+
+ .ios-image-content li{
+   margin-top: 30px;
+   font-size: 1.4rem;
+   margin-left: 10px;
+ }
+
+ .ios-newprocess h1{
+   font-size: 4rem;
+   text-align: center;;
+   margin-left: 10px;
+   margin-top: 20px;
+   color: #343888;
+   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.596);
+ }
+ .ios-newprocess img{
+   width: 600px;
+   height: 550px;
+   margin-top: 10px;
+   margin-left: 20px;
+ }
+}
+
+
+/* Medium Devices (Laptops) */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+     /* Main ios Development Container */
+     .ios-dev-container {
+       display: flex;
+       align-items: center; 
+        width: 100%;
+       height: 450px;
+       margin-top: 120px  ;
+       background: #343888;
+     }
+     
+     .ios-content {
+       width: 100%;
+     }
+     
+     .ios-content h1 {
+       font-size: 2.2rem;
+       color: #ffffff;
+       margin-bottom: 10px;
+       padding: 15px;
+     }
+     
+     .ios-content h2 {
+       font-size: 1.2rem;
+       color: #dddcdc;
+       line-height: 1.5;
+       padding: 15px;
+       
+     }
+     
+     .ios-image {
+       max-width: 800px;
+       height: 100%;
+       display: flex;
+       
+     }
+     
+     .ios-image img {
+       width: 100%;
+       height: 450px;
+       border-radius: 1px;
+       box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+     }
+
+     .ios-tech-item {
+       display: flex;
+       max-width: 300px;
+       margin: auto;
+       align-items: center;
+       padding: 15px;
+       border: 2px solid;
+       border-radius: 10px;
+       box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+       background: #f8f9fa;
+       margin-bottom: 30px;
+       transition: transform 0.3s ease-in-out;
+     }
+
+     
+ .ios-services-container h2{
+   margin-top: 10px;
+   font-size: 2.5rem;
+   margin-bottom: 10px;
+}
+ .ios-services-grid {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   margin: 10px auto;
+   width: 700px;
+   gap: 20px;
+   justify-content: center;
+   align-items: center;
+   
+ }
+
+
+ .ios-newprocess{
+   display: flex;
+   flex-direction: column;
+ }
+
+ .ios-image-content{
+   display: flex;
+   flex-direction: column;
+   margin: 0px auto;
+ }
+
+ .ios-image-content ul{
+   margin-top: 40px;
+   font-size: 1.5rem;
+   margin-left: 10px;
+   margin-bottom: 20px;
+ }
+
+
+ .ios-image-content li{
+   margin-top: 30px;
+   font-size: 1.5rem;
+   list-style: none;
+   margin-left: 10px;
+ }
+
+ .ios-newprocess h1{
+   font-size: 3rem;
+   text-align: center;;
+   margin-left: 10px;
+   margin-top: 20px;
+   color: #343888;
+   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.596);
+ }
+ .ios-newprocess img{
+   width: 600px;
+   height: 350px;
+   margin-top: 10px;
+   margin-left: 20px;
+ }
+}
+
+ /* Small Devices (Tablets) */
+ @media (min-width: 481px) and (max-width: 768px) {
+   .ios-dev-container {
+     display: flex;
+     align-items: center; 
+     flex-direction: column;
+      width: 100%;
+     height: 450px;
+     margin-top: 120px  ;
+     background: #343888;
+   }
+   
+   .ios-content {
+     width: 100%;
+   }
+   
+   .ios-content h1 { 
+     font-size: 2.2rem;
+     color: #ffffff;
+     text-align: center;
+     margin-top: 10px;
+     margin-bottom: 5px;
+     padding: 15px;
+   }
+   
+   .ios-content h2 {
+     font-size: 1.2rem;
+     color: #dddcdc;
+     line-height: 1.5;
+     padding: 15px;
+     text-align: center;
+   }
+   
+   .ios-image {
+     max-width: 400px;
+     height: 100px;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+   }
+   
+   .ios-image img {
+     width: 100%;
+     height: 250px;
+     border-radius: 10px;
+     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+   }
+   .ios-tech-container h2{
+     font-size: 2.5rem;
+     text-shadow: 2px 1px 1px #030303;
+   }
+   .ios-tech-grid {
+   
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);
+     gap: 20px;
+     justify-content: center;
+     align-items: center;
+     margin-top: 20px;
+     margin-left: 50px;
+   }
+   
+   .ios-tech-item {
+     display: flex;
+     max-width: 400px;
+     height: 100px ;
+     margin: auto;
+     align-items: center;
+     padding: 15px;
+     border: 2px solid;
+     border-radius: 10px;
+     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+     background: #f8f9fa;
+     margin-bottom: 30px;
+     transition: transform 0.3s ease-in-out;
+   }
+
+   
+.ios-services-container h2{
+ margin-top: 10px;
+ font-size: 2rem;
+ margin-bottom: 10px;
+}
+.ios-services-grid {
+ display: grid;
+ grid-template-columns: repeat(1, 1fr);
+ margin: 10px auto;
+ width: 400px;
+ gap: 20px;
+ justify-content: center;
+ align-items: center;
+ 
+}
+
+
+.ios-newprocess{
+ display: flex;
+ flex-direction: column;
+}
+
+.ios-image-content{
+ display: flex;
+ flex-direction: column;
+ margin: 0px auto;
+
+}
+
+.ios-image-content ul{
+ margin-top: 40px;
+ font-size: 1.5rem;
+ margin-left: 0px;
+
+}
+
+
+.ios-image-content li{
+ margin-top: 20px;
+ font-size: 1.5rem;
+ list-style: none;
+
+}
+
+.ios-newprocess h1{
+ font-size: 1.5rem;
+ text-align: center;;
+ margin-left: 10px;
+ margin-top: 20px;
+ color: #343888;
+ text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.596);
+}
+.ios-newprocess img{
+
+ width: 400px;
+ height: 250px;
+margin:20px auto;
+}
+ }
+
+
+ @media (min-width: 320px) and (max-width: 480px) {
+
+  .ios-dev-container {
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+     width: 100%;
+    height: 400px;
+    margin-top: 120px  ;
+    background: #343888;
+  }
+  
+  .ios-content {
+    width: 100%;
+  }
+  
+  .ios-content h1 { 
+    font-size: 2rem;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 15px;
+  }
+  
+  .ios-content h2 {
+    font-size: 0.8rem;
+    color: #dddcdc;
+    line-height: 1.5;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .ios-image {
+    max-width: 300px;
+    height: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .ios-image img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+ }

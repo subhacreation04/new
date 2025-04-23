@@ -1,0 +1,546 @@
+/* Main socialMedia Development Container */
+.socialMedia-dev-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    max-width: 2000px;
+    height: 450px;
+    margin-top: 120px;
+    background: #343888;
+  }
+  
+  .socialMedia-content {
+    width: 100%;
+  }
+  
+  .socialMedia-content h1 {
+    font-size: 3rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+    padding: 15px;
+  }
+  
+  .socialMedia-content h2 {
+    text-align: left;
+    font-size: 1.2rem;
+    color: #dddcdc;
+    line-height: 1.5;
+    padding: 15px;
+    margin-left: 5px;
+  }
+  
+  .socialMedia-image {
+    width: 1500px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .socialMedia-image img {
+    width: 1000px;
+    height: 450px;
+    border-radius: 1px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  /* Benefits Section */
+.socialMedia-benefits {
+  padding: 50px 10%;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+.social-list-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  max-width: 2000px;
+  height: 450px;
+  margin: auto;
+  ;
+}
+
+.social-list-content img{
+  width: 28%;
+}
+.socialMedia-benefits h2 {
+  font-size: 2rem;
+  color: #1e3a8a;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.socialMedia-benefits p {
+  font-size: 1.5rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.socialMedia-benefits ul {
+  text-align: left;
+  list-style: none;
+  margin: 20px auto ;
+  padding: 0;
+}
+
+.socialMedia-benefits li {
+  font-size: 1.9rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Strategies Section */
+.socialMedia-strategies {
+  padding: 50px 10%;
+  text-align: center;
+}
+
+.strategies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.strategy-card {
+  background-color: #eef5ff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.strategy-card h3 {
+  color: #1e3a8a;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.strategy-card p {
+  color: #555;
+  font-size: 1rem;
+}
+
+/* Call to Action */
+.socialMedia-cta {
+  text-align: center;
+  padding: 50px 10%;
+  background-color: #343888;
+  color: white;
+}
+
+.socialMedia-cta h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.socialMedia-cta p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  padding: 12px 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1e3a8a;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+  background-color: #f0f0f0;
+}
+
+
+/* Large Devices (Desktops) */
+@media screen and (max-width:1440px ) and (min-width:1025px) {
+  /* Main socialMedia Development Container */
+  .socialMedia-dev-container {
+   display: flex;
+   align-items: center; 
+    width: 100%;
+   height: 450px;
+   margin-top: 120px  ;
+   background: #343888;
+ }
+ 
+ .socialMedia-content {
+   width: 100%;
+ }
+ 
+ .socialMedia-content h1 {
+   font-size: 2.2rem;
+   color: #ffffff;
+   margin-bottom: 10px;
+   padding: 15px;
+ }
+ 
+ .socialMedia-content h2 {
+   font-size: 1.2rem;
+   color: #dddcdc;
+   line-height: 1.5;
+   padding: 15px;
+   
+ }
+ 
+ .socialMedia-image {
+   max-width: 800px;
+   height: 100%;
+   display: flex;
+   
+ }
+ 
+ .socialMedia-image img {
+   width: 100%;
+   height: 450px;
+   border-radius: 1px;
+   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+ }
+
+ 
+  /* Benefits Section */
+.socialMedia-benefits {
+  padding: 50px 10%;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+.social-list-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  max-width: 2000px;
+  height: 450px;
+  margin: auto;
+  gap: 10px;
+}
+
+.social-list-content img{
+  width: 40%; 
+  height: auto;
+  margin-left: 0px;
+}
+.socialMedia-benefits h2 {
+  font-size: 2rem;
+  color: #1e3a8a;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.socialMedia-benefits p {
+  font-size: 1.5rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.socialMedia-benefits ul {
+  text-align: left;
+  list-style: none;
+  padding: 0;
+}
+
+.socialMedia-benefits li {
+  font-size: 1.6rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+}
+
+
+/* Medium Devices (Laptops) */
+@media (min-width: 769px) and (max-width: 1024px) {
+   /* Main socialMedia Development Container */
+   .socialMedia-dev-container {
+     display: flex;
+     align-items: center; 
+      width: 100%;
+     height: 450px;
+     margin-top: 120px  ;
+     background: #343888;
+   }
+   
+   .socialMedia-content {
+     width: 100%;
+   }
+   
+   .socialMedia-content h1 {
+     font-size: 2.2rem;
+     color: #ffffff;
+     margin-bottom: 10px;
+     padding: 15px;
+   }
+   
+   .socialMedia-content h2 {
+     font-size: 1.2rem;
+     color: #dddcdc;
+     line-height: 1.5;
+     padding: 15px;
+     
+   }
+   
+   .socialMedia-image {
+     max-width: 800px;
+     height: 100%;
+     display: flex;
+     
+   }
+   
+   .socialMedia-image img {
+     width: 100%;
+     height: 450px;
+     border-radius: 1px;
+     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+   }
+   
+
+  /* Benefits Section */
+  .socialMedia-benefits {
+    padding: 50px 10%;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  .social-list-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    max-width: 2000px;
+    height: 450px;
+    margin: auto;
+    gap: 0px;
+  }
+  
+  .social-list-content img{
+    width:50%; 
+    height: auto;
+    margin-left: 10px;
+  }
+  .socialMedia-benefits h2 {
+    font-size: 2rem;
+    color: #1e3a8a;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  
+  .socialMedia-benefits p {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .socialMedia-benefits ul {
+    text-align: left;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .socialMedia-benefits li {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+}
+
+/* Small Devices (Tablets) */
+@media (min-width: 481px) and (max-width: 768px) {
+ .socialMedia-dev-container {
+   display: flex;
+   align-items: center; 
+   flex-direction: column;
+    width: 100%;
+   height: 450px;
+   margin-top: 120px  ;
+   background: #343888;
+ }
+ 
+ .socialMedia-content {
+   width: 100%;
+ }
+ 
+ .socialMedia-content h1 { 
+   font-size: 2.2rem;
+   color: #ffffff;
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 5px;
+   padding: 15px;
+ }
+ 
+ .socialMedia-content h2 {
+   font-size: 1.2rem;
+   color: #dddcdc;
+   line-height: 1.5;
+   padding: 15px;
+   text-align: center;
+ }
+ 
+ .socialMedia-image {
+   max-width: 400px;
+   height: 100px;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+ }
+ 
+ .socialMedia-image img {
+   width: 100%;
+   height: 250px;
+   border-radius: 10px;
+   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+ }
+
+ 
+  /* Benefits Section */
+  .socialMedia-benefits {
+    padding: 50px 10%;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  .social-list-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    max-width: 2000px;
+    height: auto;
+    margin: auto;
+    gap: 0px;
+  }
+  
+  .social-list-content img{
+    width:80%; 
+    height: auto;
+    margin-left: 10px;
+  }
+  .socialMedia-benefits h2 {
+    font-size: 1.5rem;
+    color: #1e3a8a;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  
+  .socialMedia-benefits p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .socialMedia-benefits ul {
+    text-align: left;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .socialMedia-benefits li {
+    font-size: 1.3rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .socialMedia-dev-container {
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+     width: 100%;
+    height: 400px;
+    margin-top: 120px  ;
+    background: #343888;
+  }
+  
+  .socialMedia-content {
+    width: 100%;
+  }
+  
+  .socialMedia-content h1 { 
+    font-size: 2rem;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 15px;
+  }
+  
+  .socialMedia-content h2 {
+    font-size: 0.8rem;
+    color: #dddcdc;
+    line-height: 1.5;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .socialMedia-image {
+    max-width: 300px;
+    height: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .socialMedia-image img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  
+  /* Benefits Section */
+  .socialMedia-benefits {
+    padding: 50px 10%;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  .social-list-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    max-width: 2000px;
+    height: auto;
+    margin: auto;
+    gap: 0px;
+  }
+  
+  .social-list-content img{
+    width:80%; 
+    height: auto;
+    margin-left: 10px;
+  }
+  .socialMedia-benefits h2 {
+    font-size: 1.5rem;
+    color: #1e3a8a;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  
+  .socialMedia-benefits p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .socialMedia-benefits ul {
+    text-align: left;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .socialMedia-benefits li {
+    font-size: 1.3rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+ }

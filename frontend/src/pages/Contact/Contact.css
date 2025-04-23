@@ -1,0 +1,322 @@
+/* Main contact Development Container */
+* {
+  pointer-events: all !important;
+ 
+}
+
+
+.contact-dev-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    max-width: 2000px;
+    height: 450px;
+    margin-top: 120px;
+    background: #343888;
+  }
+  
+  .contact-content {
+    width: 100%;
+  }
+  
+  .contact-content h1 {
+    font-size: 3rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+    padding: 15px;
+  }
+  
+  .contact-content h2 {
+    text-align: left;
+    font-size: 1.2rem;
+    color: #dddcdc;
+    line-height: 1.5;
+    padding: 15px;
+    margin-left: 5px;
+  }
+  
+  .contact-image {
+    width: 1500px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .contact-image img {
+    width: 1000px;
+    height: 450px;
+    border-radius: 1px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-info{
+    display: flex;
+    width: 100%;
+  }
+  .contact-options {
+    text-align: center;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 40px auto;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+     z-index: 20;
+    pointer-events: auto; /* Ensures links are clickable */
+
+  }
+  
+  .contact-options h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .contact-options p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .contact-options ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-options li {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #222;
+  }
+  
+  .contact-options a {
+    color: #343888;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .contact-options a:hover {
+    text-decoration: underline;
+  }
+  
+  .map-container{
+    list-style: none;
+  }
+  .map-container strong{
+    color: #222;
+  }
+  .map-container li{
+    color: #343888;
+    text-decoration: none;
+    font-weight: bold;
+  }
+ 
+  /* Large Devices (Desktops) */
+@media screen and (max-width:1440px ) and (min-width:1025px) {
+
+    /* Main contact Development Container */
+.contact-dev-container {
+  display: flex;
+  align-items: center; 
+   width: 100%;
+  height: 450px;
+  margin-top: 120px  ;
+  background: #343888;
+}
+
+.contact-content {
+  width: 100%;
+}
+
+.contact-content h1 {
+  font-size: 2.2rem;
+  color: #ffffff;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+
+.contact-content h2 {
+  font-size: 1.2rem;
+  color: #dddcdc;
+  line-height: 1.5;
+  padding: 15px;
+  
+}
+
+.contact-image {
+  max-width: 800px;
+  height: 100%;
+  display: flex;
+  
+}
+
+.contact-image img {
+  width: 100%;
+  height: 450px;
+  border-radius: 1px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ 
+}
+
+
+/* Medium Devices (Laptops) */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+      /* Main contact Development Container */
+.contact-dev-container {
+  display: flex;
+  align-items: center; 
+   width: 100%;
+  height: 450px;
+  margin-top: 120px  ;
+  background: #343888;
+}
+
+.contact-content {
+  width: 100%;
+}
+
+.contact-content h1 {
+  font-size: 2.2rem;
+  color: #ffffff;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+
+.contact-content h2 {
+  font-size: 1.2rem;
+  color: #dddcdc;
+  line-height: 1.5;
+  padding: 15px;
+  
+}
+
+.contact-image {
+  max-width: 800px;
+  height: 100%;
+  display: flex;
+  
+}
+
+.contact-image img {
+  width: 100%;
+  height: 450px;
+  border-radius: 1px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+ 
+}
+
+  /* Small Devices (Tablets) */
+  @media (min-width: 481px) and (max-width: 768px) {
+
+    /* Main contact Development Container */
+.contact-dev-container {
+  display: flex;
+  align-items: center; 
+  flex-direction: column;
+   width: 100%;
+  height: 450px;
+  margin-top: 120px  ;
+  background: #343888;
+}
+
+.contact-content {
+  width: 100%;
+}
+
+.contact-content h1 { 
+  font-size: 1.7rem;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding: 15px;
+}
+
+.contact-content h2 {
+  font-size: 1rem;
+  text-align: center;
+  color: #dddcdc;
+  line-height: 1.5;
+  padding: 15px;
+  
+}
+
+.contact-image {
+  max-width: 400px;
+  height: 100px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-image img {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+ 
+  }
+
+
+    /* Small Devices (Tablets) */
+    @media (min-width: 320px) and (max-width: 480px) {
+
+      /* Main contact Development Container */
+  .contact-dev-container {
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+     width: 100%;
+    height: 450px;
+    margin-top: 120px  ;
+    background: #343888;
+  }
+  
+  .contact-content {
+    width: 100%;
+  }
+  
+  .contact-content h1 { 
+    font-size: 1.3rem;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 15px;
+  }
+  
+  .contact-content h2 {
+    font-size: 0.8rem;
+    text-align: center;
+    color: #dddcdc;
+    line-height: 1.5;
+    padding: 15px;
+    
+  }
+  
+  .contact-image {
+    max-width: 300px;
+    height: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contact-image img {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+   
+  
+    }

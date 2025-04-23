@@ -1,0 +1,122 @@
+/* Specific styles for the client slider */
+.client-slider-container {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #343888;
+  width: 80%; /* Set the container width */
+  max-width: 1200px; /* Optional: Maximum width */
+  margin: 0 auto; /* Center the container horizontally */
+  border-radius: 12px; /* Optional: Rounded corners for the container */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow for focus */
+}
+
+.client-slider-container h2 {
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.client-slider-container .client-card-item {
+  width: 150px; /* Card width */
+  height: 150px; /* Card height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.client-slider-container .client-logo-img {
+  width: 100%; /* Fit the image within the card's width */
+  height: 100%; /* Fit the image within the card's height */
+  object-fit: contain; /* Ensure the aspect ratio is maintained */
+  border-radius: 8px; /* Slightly rounded corners */
+  background-color: #fff; /* White background for logos */
+  padding: 10px; /* Padding around the logo */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.client-slider-container .slick-prev,
+.client-slider-container .slick-next {
+  display: none; /* Hide navigation arrows */
+}
+
+.client-slider-container .slick-track {
+  display: flex;
+  margin: 0;
+  gap: 20px; /* Space between cards */
+}
+
+.client-slider-container .slick-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.client-slider-container .slick-list {
+  overflow: hidden;
+}
+
+
+ 
+
+  /* Small Devices (Tablets) */
+  @media (min-width: 320px) and (max-width: 480px) {
+    .client-slider-container {
+      padding: 40px 20px;
+      text-align: center;
+      background-color: #343888;
+      width: 80%; /* Set the container width */
+      max-width: 1200px; /* Optional: Maximum width */
+      margin: 20px auto; /* Center the container horizontally */
+      border-radius: 12px; /* Optional: Rounded corners for the container */
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow for focus */
+    }
+    
+    .client-slider-container h2 {
+      font-size: 2rem;
+      color: #ffffff;
+      margin:10px auto;
+      font-weight: bold;
+    }
+    
+    .client-slider-container .client-card-item {
+      width: 140px; /* Card width */
+      height: 140px; /* Card height */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: transparent;
+    }
+    
+    .client-slider-container .client-logo-img {
+      width: 100%; /* Fit the image within the card's width */
+      height: 100%; /* Fit the image within the card's height */
+      object-fit: contain; /* Ensure the aspect ratio is maintained */
+      border-radius: 8px; /* Slightly rounded corners */
+      background-color: #fff; /* White background for logos */
+      padding: 10px; /* Padding around the logo */
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    }
+    
+    .client-slider-container .slick-prev,
+    .client-slider-container .slick-next {
+      display: none; /* Hide navigation arrows */
+    }
+    
+    .client-slider-container .slick-track {
+      display: flex;
+      margin: 0;
+      gap: 20px; /* Space between cards */
+    }
+    
+    .client-slider-container .slick-slide {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .client-slider-container .slick-list {
+      overflow: hidden;
+    }
+  }

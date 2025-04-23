@@ -1,0 +1,331 @@
+/* Why Choose Us Section */
+.homepage-choose {
+    padding: 2rem;
+  }
+  
+  .homepage-choose-title {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #343888;
+  }
+  
+  .homepage-choose-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .homepage-choose-left {
+    flex: 1;
+  }
+  
+  .homepage-choose-list {
+    list-style: none;
+    padding: 15px;
+  }
+  
+  .homepage-choose-list li {
+    font-size: 38px;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .homepage-choose-list li:hover {
+    transform: scale(1.05); /* Slightly enlarge the text */
+    color: #0000f3; /* Change the color on hover */
+  }
+  
+  .homepage-list-icon {
+    margin-right: 0.5rem;
+  }
+  
+  .homepage-choose-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .homepage-choose-image {
+    max-width: 1500px;
+    height: 600px;
+    border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .homepage-choose-image:hover {
+    transform: scale(1.05); /* Slightly enlarge the image */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); /* Add a subtle shadow on hover */
+  }
+  
+
+  @media screen and (max-width:1440px ) and (min-width:1025px) {
+    /* Why Choose Us Section */
+.homepage-choose {
+  padding: 2rem;
+}
+
+.homepage-choose-title {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #343888;
+}
+
+.homepage-choose-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.homepage-choose-left {
+  flex: 1;
+}
+
+.homepage-choose-list {
+  list-style: none;
+  padding: 15px;
+}
+
+.homepage-choose-list li {
+  font-size: 20px;
+  font-weight: bold;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.homepage-choose-list li:hover {
+  transform: scale(1.05); /* Slightly enlarge the text */
+  color: #0000f3; /* Change the color on hover */
+}
+
+.homepage-list-icon {
+  margin-right: 0.5rem;
+}
+
+.homepage-choose-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.homepage-choose-image {
+  max-width: 600px;
+  height: 400px;
+  border-radius: 5px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.homepage-choose-image:hover {
+  transform: scale(1.05); /* Slightly enlarge the image */
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); /* Add a subtle shadow on hover */
+}
+
+  }
+
+
+  /* Large Devices (Desktops) */
+@media screen and (max-width:1440px ) and (min-width:1025px) {}
+
+
+/* Medium Devices (Laptops) */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  
+        /* Why Choose Us Section */
+        .homepage-choose {
+          padding: 2rem;
+        }
+    
+        .homepage-choose-title {
+          text-align: center;
+          font-size: 2.5rem;
+          font-weight: bold;
+          margin-bottom: 1rem;
+          color: #343888;
+        }
+    
+        .homepage-choose-content {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          gap: 2rem;
+        }
+    
+        .homepage-choose-left {
+          flex: 1;
+        }
+    
+        .homepage-choose-list {
+          list-style: none;
+          padding: 10px;
+        }
+    
+        .homepage-choose-list li {
+          font-size: 18px;
+          font-weight: 600;
+          line-height: 30px;
+          transition: transform 0.3s ease, color 0.3s ease;
+        }
+    
+        .homepage-choose-list li:hover {
+          transform: scale(1.05); /* Slightly enlarge the text */
+          color: #0000f3; /* Change the color on hover */
+        }
+    
+        .homepage-list-icon {
+          margin-right: 0.1rem;
+        }
+    
+        .homepage-choose-right {
+          flex: 1;
+          display: flex;
+          justify-content: center;
+        }
+    
+        .homepage-choose-image {
+          width: 350px;
+          height: 200px;
+          border-radius: 5px;
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+}
+
+  /* Small Devices (Tablets) */
+  @media (min-width: 481px) and (max-width: 768px) {
+
+        /* Why Choose Us Section */
+    .homepage-choose {
+      display: flex;
+      flex-direction: column;
+      height: 600px;
+       
+    }
+
+    .homepage-choose-title {
+      text-align: center;
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+      color: #343888;
+    }
+
+    .homepage-choose-content {
+       flex-direction:column;
+       
+    }
+
+    .homepage-choose-left {
+      flex-direction: column;
+    }
+
+    .homepage-choose-list {
+      list-style: none;
+      padding: 10px;
+    }
+
+    .homepage-choose-list li {
+      font-size: 22px;
+      font-weight: 300;
+      line-height: 30px;
+      transition: transform 0.3s ease, color 0.3s ease;
+    }
+
+    .homepage-choose-list li:hover {
+      transform: scale(1.05); /* Slightly enlarge the text */
+      color: #0000f3; /* Change the color on hover */
+    }
+
+    .homepage-list-icon {
+      margin-right: 0.1rem;
+    }
+
+    .homepage-choose-right {
+      width: 600px;
+      height: 300px;
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+       
+    }
+
+    .homepage-choose-image {
+      width: 60%;
+      height: 250px;
+       
+      border-radius: 5px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+  }
+
+  @media (min-width: 320px) and (max-width: 480px) {
+
+    /* Why Choose Us Section */
+.homepage-choose {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+   margin-bottom: 150px ;
+}
+
+.homepage-choose-title {
+  text-align: center;
+  font-size: 1.9rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #343888;
+}
+
+.homepage-choose-content {
+   flex-direction:column;
+   
+}
+
+.homepage-choose-left {
+  flex-direction: column;
+}
+
+.homepage-choose-list {
+  list-style: none;
+  padding: 10px;
+}
+
+.homepage-choose-list li {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.homepage-choose-list li:hover {
+  transform: scale(1.05); /* Slightly enlarge the text */
+  color: #0000f3; /* Change the color on hover */
+}
+
+.homepage-list-icon {
+  margin-right: 0.1rem;
+}
+
+.homepage-choose-right {
+  width: 600px;
+  height: 300px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   
+}
+
+.homepage-choose-image {
+  width: 50%;
+  height: 250px;
+  border-radius: 5px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 20px auto;
+}
+
+}

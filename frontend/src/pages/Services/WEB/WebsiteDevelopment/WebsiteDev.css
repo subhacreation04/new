@@ -1,0 +1,1437 @@
+/* Main Website Development Container */
+.website-dev-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px;
+  margin-top: 120px ;
+  max-width: 2000px;
+  height: 450px;
+   background: #343888;
+}
+
+.website-content {
+  width: 100%;
+}
+
+.website-content h1 {
+  font-size: 3rem;
+  color: #ffffff;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+
+.website-content h2 {
+  text-align: left;
+  font-size: 1.2rem;
+  color: #dddcdc;
+  line-height: 1.5;
+  padding: 15px;
+  margin-left: 5px;
+}
+
+.website-image {
+  width: 1500px;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.website-image img {
+  max-width: 1000px;
+  height: 450px;
+  border-radius: 1px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.why h2{
+  font-size: 2.5rem;
+  text-align: start;
+  margin-left: 40px;
+  font-weight: 600;
+  text-shadow: 1px 1px 1px #0000005e;
+}
+
+.why p{
+  font-size: 1.5rem;
+  margin-left: 40px;
+  color: #424141c0;
+}
+
+ 
+/* Services Section */
+.webdev-services {
+  padding: 40px;
+  padding-bottom: 120px; /* Extra padding to prevent footer overlap */
+  background: #ffffff;
+  display: block;
+  position: relative;
+  z-index: 5;
+}
+
+.webdev-services h2 {
+  font-size: 2.5rem;
+  color: #343888;
+  margin-bottom: 15px;
+  text-align: start;
+  text-shadow: 1px 1px 1px #5b62e4;
+}
+
+.webdev-services p {
+  font-size: 1.8rem;
+  color: #424141c0;
+}
+
+/* Features Section */
+.webdev-features {
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  margin: 40px;
+  max-width: 1800px;
+  background: #ffffff;
+}
+
+.webdev-feature-list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 40%;
+}
+
+.webdev-feature-item {
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 15px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: left;
+  display: flex;
+  align-items: start;
+  gap: 10px;
+}
+
+.webdev-feature-item:hover,
+.webdev-feature-item.active {
+  background: #343888a6;
+  color: white;
+}
+
+.webdev-feature-number {
+  background: #343888;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.webdev-feature-details {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+.click {
+  width: 48px;
+  height: 48px;
+  margin-left: 260px;
+  margin-top: -60px;
+  box-shadow: none;
+  color: #343888;
+}
+
+.webdev-feature-details img {
+  width: 100%;
+  max-width: 750px;
+  height: 450px;
+  border-radius: 10px;
+  margin-top: -80px;
+  margin-bottom: 10px;
+  margin-left: 90px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.webdev-feature-details p {
+  font-size: 2.8rem;
+  color: #343888;
+  font-weight: 500;
+  margin-left: 100px;
+  text-shadow: 1px 1px 1px #0000005e;
+}
+
+.webdev-feature-details .dev {
+  width: 300px;
+  height: 300px;
+  margin-left: 650px;
+  margin-top: 30px;
+  box-shadow: none;
+}
+
+/* Development Process */
+.development-process {
+  margin-top: 40px;
+  padding: 20px;
+  border-radius: 10px;
+  animation: fadeIn 0.8s ease-in-out;
+  margin-bottom: 100px;
+}
+
+/* Heading */
+.development-process h2 {
+  font-size: 3rem;
+  color: #343888;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  text-align: start;
+}
+
+/* Flex Container for Image and Content */
+.process-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  align-items: center;
+}
+
+/* Image Styling */
+.process-image {
+  flex: 1.5;
+  text-align: center;
+}
+
+.process-image img {
+  width: 900px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Right: Content Styling */
+.process-content {
+  flex: 2;
+}
+
+.process-content ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.process-content ul li {
+  font-size: 1.5rem;
+  line-height: 1.8;
+  margin-bottom: 15px;
+  color: #424141c0;
+}
+
+.process-content ul li strong {
+  color: #343888;
+}
+
+/* Footer - Fixed the Clashing Issue */
+.footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  z-index: 10;
+  clear: both; /* Prevents merging */
+}
+
+
+/* Ensure Footer Doesn't Inherit Other Styles */
+.footer * {
+  all: unset;
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+}
+
+
+
+/* Large Devices (Desktops) */
+@media screen and (max-width:1440px ) and (min-width:1025px) {
+  /* Main Website Development Container */
+.website-dev-container {
+  display: flex;
+  align-items: center; 
+   width: 100%;
+  height: 450px;
+  margin-top: 120px  ;
+  background: #343888;
+}
+
+.website-content {
+  width: 100%;
+}
+
+.website-content h1 {
+  font-size: 2.2rem;
+  color: #ffffff;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+
+.website-content h2 {
+  font-size: 1.2rem;
+  color: #dddcdc;
+  line-height: 1.5;
+  padding: 15px;
+  
+}
+
+.website-image {
+  max-width: 800px;
+  height: 100%;
+  display: flex;
+  
+}
+
+.website-image img {
+  width: 100%;
+  height: 450px;
+  border-radius: 1px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Services Section */
+.website-services-container {
+  padding: 40px;
+  padding-bottom: 120px; /* Extra padding to prevent footer overlap */
+  background: #ffffff;
+  display: block;
+  position: relative;
+  z-index: 5;
+}
+
+.website-services-container h2 {
+  font-size: 2.5rem;
+  color: #343888;
+  margin-bottom: 15px;
+  text-align: start;
+  text-shadow: 1px 1px 1px #5b62e4;
+}
+
+.website-services-container p {
+  font-size: 1.2rem;
+  color: #424141c0;
+}
+
+/* Services Section */
+.webdev-services {
+  padding: 40px;
+  padding-bottom: 120px; /* Extra padding to prevent footer overlap */
+  background: #ffffff;
+  display: block;
+  position: relative;
+  z-index: 5;
+}
+
+.webdev-services h2 {
+  font-size: 2.5rem;
+  color: #343888;
+  margin-bottom: 15px;
+  text-align: start;
+  text-shadow: 1px 1px 1px #5b62e4;
+}
+
+.webdev-services p {
+  font-size: 1.8rem;
+  color: #424141c0;
+}
+
+/* Features Section */
+.webdev-features {
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  margin: 20px;
+  max-width: 1800px;
+  background: #ffffff;
+}
+
+.webdev-feature-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 35%;
+}
+
+.webdev-feature-item {
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 15px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: left;
+  display: flex;
+  align-items: start;
+  gap: 10px;
+}
+
+.webdev-feature-item:hover,
+.webdev-feature-item.active {
+  background: #343888a6;
+  color: white;
+}
+
+.webdev-feature-number {
+  background: #343888;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.webdev-feature-details {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+.click {
+  width: 48px;
+  height: 48px;
+  margin-left: 230px;
+  margin-top: -60px;
+  box-shadow: none;
+  color: #343888;
+}
+
+.webdev-feature-details img {
+  width: 100%;
+  max-width: 600px;
+  height: 550px;
+  border-radius: 10px;
+  margin-top: -80px;
+  margin-bottom: 10px;
+  margin-left: 90px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.webdev-feature-details p {
+  font-size: 2.8rem;
+  color: #343888;
+  font-weight: 500;
+  margin-left: 100px;
+  text-shadow: 1px 1px 1px #0000005e;
+}
+
+.webdev-feature-details .dev {
+  width: 300px;
+  height: 300px;
+  margin-left: 650px;
+  margin-top: 30px;
+  box-shadow: none;
+}
+
+
+/* Development Process */
+.development-process {
+  margin-top: 40px;
+  padding: 20px;
+  border-radius: 10px;
+  animation: fadeIn 0.8s ease-in-out;
+  margin-bottom: 100px;
+}
+
+/* Heading */
+.development-process h2 {
+  font-size: 3rem;
+  color: #343888;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  text-align: start;
+}
+
+/* Flex Container for Image and Content */
+.process-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 1px;
+  align-items: center;
+}
+
+/* Image Styling */
+.process-image {
+  flex: 1.7;
+  text-align: center;
+}
+
+.process-image img {
+  width: 900px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Right: Content Styling */
+.process-content {
+  flex: 2;
+}
+
+.process-content ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.process-content ul li {
+  font-size: 1.5rem;
+  line-height: 1.8;
+  margin-bottom: 15px;
+  color: #424141c0;
+}
+
+.process-content ul li strong {
+  color: #343888;
+}
+
+/* Footer - Fixed the Clashing Issue */
+.footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  z-index: 10;
+  clear: both; /* Prevents merging */
+}
+
+/* Ensure Footer Doesn't Inherit Other Styles */
+.footer * {
+  all: unset;
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+}
+
+.feature-details .dev{
+  width: 200px;
+  height: 5%;
+  margin-top: 50px;
+  margin-left: 400px;
+  box-shadow: none;
+}
+
+}
+
+
+
+/* Medium Devices (Laptops) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Main Website Development Container */
+.website-dev-container {
+  display: flex;
+  align-items: center; 
+   width: 100%;
+  height: 450px;
+  margin-top: 120px  ;
+  background: #343888;
+}
+
+.website-content {
+  width: 100%;
+}
+
+.website-content h1 {
+  font-size: 2.2rem;
+  color: #ffffff;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+
+.website-content h2 {
+  font-size: 1.2rem;
+  color: #dddcdc;
+  line-height: 1.5;
+  padding: 15px;
+  
+}
+
+.website-image {
+  max-width: 800px;
+  height: 100%;
+  display: flex;
+  
+}
+
+.website-image img {
+  width: 100%;
+  height: 450px;
+  border-radius: 1px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Services Section */
+.website-services-container {
+  padding: 40px;
+  padding-bottom: 120px; /* Extra padding to prevent footer overlap */
+  background: #ffffff;
+  display: block;
+  position: relative;
+  z-index: 5;
+}
+
+.website-services-container h2 {
+  font-size: 2.5rem;
+  color: #343888;
+  margin-bottom: 15px;
+  text-align: start;
+  text-shadow: 1px 1px 1px #5b62e4;
+}
+
+.website-services-container p {
+  font-size: 1.2rem;
+  color: #424141c0;
+}
+
+/* Services Section */
+.webdev-services {
+  padding: 40px;
+  padding-bottom: 120px; /* Extra padding to prevent footer overlap */
+  background: #ffffff;
+  display: block;
+  position: relative;
+  z-index: 5;
+}
+
+.webdev-services h2 {
+  font-size: 2.5rem;
+  color: #343888;
+  margin-bottom: 15px;
+  text-align: start;
+  text-shadow: 1px 1px 1px #5b62e4;
+}
+
+.webdev-services p {
+  font-size: 1.8rem;
+  color: #424141c0;
+}
+
+/* Features Section */
+.webdev-features {
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  margin: 20px;
+  max-width: 1800px;
+  background: #ffffff;
+}
+
+.webdev-feature-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width:50%;
+}
+
+.webdev-feature-item {
+  background: #f9f9f9;
+  max-width: 600px;
+  height: 60px;
+  border-radius: 10px;
+  padding: 8px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.5rem;
+  font-weight: bold;
+  text-align: left;
+  display: flex;
+  align-items: start;
+  gap: 10px;
+}
+
+.webdev-feature-title {
+  font-size: 1.5rem;
+   
+  text-align: left;
+  color: #343888;
+  font-weight: 600;
+  
+  text-shadow: 1px 1px 1px #0000005e;
+}
+
+.webdev-feature-item:hover,
+.webdev-feature-item.active {
+  background: #343888a6;
+  color: white;
+}
+
+.webdev-feature-number {
+  background: #343888;
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.webdev-feature-details {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+.click {
+  width: 48px;
+  height: 48px;
+  margin-left: 230px;
+  margin-top: -60px;
+  box-shadow: none;
+  color: #343888;
+}
+
+.webdev-feature-details img {
+  width: 100%;
+  max-width: 400px;
+  max-height: 300px;
+  border-radius: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.webdev-feature-details p {
+  font-size: 1.2rem;
+  color: #343888;
+  font-weight: 500;
+  margin-left: 70px;
+  text-shadow: 1px 1px 1px #0000005e;
+}
+
+.webdev-feature-details .dev {
+  width: 200px;
+  height: 300px;
+  margin-left: 650px;
+  margin-top: 30px;
+  box-shadow: none;
+}
+
+
+/* Development Process */
+.development-process {
+  margin-top: 40px;
+  padding: 20px;
+  border-radius: 10px;
+  animation: fadeIn 0.8s ease-in-out;
+  margin-bottom: 100px;
+}
+
+/* Heading */
+.development-process h2 {
+  font-size: 3rem;
+  color: #343888;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  text-align: start;
+}
+
+/* Flex Container for Image and Content */
+.process-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 1px;
+  align-items: center;
+}
+
+/* Image Styling */
+.process-image {
+  flex: 1.7;
+  text-align: center;
+}
+
+.process-image img {
+  width: 900px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Right: Content Styling */
+.process-content {
+  flex: 2;
+}
+
+.process-content ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.process-content ul li {
+  font-size: 1.5rem;
+  line-height: 1.8;
+  margin-bottom: 15px;
+  color: #424141c0;
+}
+
+.process-content ul li strong {
+  color: #343888;
+}
+
+/* Footer - Fixed the Clashing Issue */
+.footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  z-index: 10;
+  clear: both; /* Prevents merging */
+}
+
+/* Ensure Footer Doesn't Inherit Other Styles */
+.footer * {
+  all: unset;
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+}
+
+.feature-details .dev{
+  width: 200px;
+  height: 5%;
+  margin-top: 50px;
+  margin-left: 400px;
+  box-shadow: none;
+}
+}
+
+  /* Small Devices (Tablets) */
+  @media (min-width: 481px) and (max-width: 768px) {
+/* Main Website Development Container */
+.website-dev-container {
+  display: flex;
+  align-items: center; 
+  flex-direction: column;
+   width: 100%;
+  height: 450px;
+  margin-top: 120px  ;
+  background: #343888;
+}
+
+.website-content {
+  width: 100%;
+}
+
+.website-content h1 { 
+  font-size: 2.2rem;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding: 15px;
+}
+
+.website-content h2 {
+  font-size: 1.2rem;
+  color: #dddcdc;
+  line-height: 1.5;
+  padding: 15px;
+  
+}
+
+.website-image {
+  max-width: 400px;
+  height: 100px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.website-image img {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Services Section */
+.website-services-container {
+  padding: 40px;
+  padding-bottom: 120px; /* Extra padding to prevent footer overlap */
+  background: #ffffff;
+  display: block;
+  position: relative;
+  z-index: 5;
+}
+
+.website-services-container h2 {
+  font-size: 2.5rem;
+  color: #343888;
+  margin-bottom: 15px;
+  text-align: start;
+  text-shadow: 1px 1px 1px #5b62e4;
+}
+
+.website-services-container p {
+  font-size: 1.2rem;
+  color: #424141c0;
+}
+
+/* Services Section */
+.webdev-services {
+  padding: 40px;
+  padding-bottom: 120px; /* Extra padding to prevent footer overlap */
+  background: #ffffff;
+  display: block;
+  position: relative;
+  z-index: 5;
+}
+
+.webdev-services h2 {
+  font-size: 2.5rem;
+  color: #343888;
+  margin-bottom: 15px;
+  text-align: start;
+  text-shadow: 1px 1px 1px #5b62e4;
+}
+
+.webdev-services p {
+  font-size: 1.8rem;
+  color: #424141c0;
+}
+
+/* Features Section */
+.webdev-features {
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  margin: 5px;
+  max-width: 1800px;
+  background: #ffffff;
+}
+
+.webdev-feature-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width:50%;
+}
+
+.webdev-feature-item {
+  background: #f9f9f9;
+  max-width: 600px;
+  height: 60px;
+  border-radius: 10px;
+  padding: 8px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.5rem;
+  font-weight: bold;
+  text-align: left;
+  display: flex;
+  align-items: start;
+  gap: 10px;
+}
+
+.webdev-feature-title {
+  font-size: 1.1rem;
+  text-align: left;
+  color: #343888;
+  font-weight: 600;
+  
+  text-shadow: 1px 1px 1px #0000005e;
+}
+
+.webdev-feature-item:hover,
+.webdev-feature-item.active {
+  background: #343888a6;
+  color: white;
+}
+
+.webdev-feature-number {
+  background: #343888;
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.webdev-feature-details {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: flex-start;
+}
+
+.click {
+  width: 48px;
+  height: 48px;
+  margin-left: 230px;
+  margin-top: -60px;
+  box-shadow: none;
+  color: #343888;
+}
+
+.webdev-feature-details img {
+  width: 100%;
+  max-width: 250px;
+  max-height: 200px;
+  border-radius: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-left: 25px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.webdev-feature-details p {
+  font-size: 1.3rem;
+  color: #343888;
+  font-weight: 500;
+  margin-left: 40px;
+  text-shadow: 1px 1px 1px #0000005e;
+}
+
+.webdev-feature-details .dev {
+  width: 200px;
+  height: 300px;
+  margin-left: 650px;
+  margin-top: 30px;
+  box-shadow: none;
+}
+.why h2{
+  font-size: 1.5rem;
+ text-align: center;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  text-shadow: 1px 1px 1px #0000005e;
+}
+
+.why p{
+  font-size: 1.5rem;
+ 
+  color: #424141c0;
+}
+
+/* Development Process */
+.development-process {
+  margin-top: 40px;
+  padding: 20px;
+  border-radius: 10px;
+  animation: fadeIn 0.8s ease-in-out;
+  margin-bottom: 100px;
+}
+
+/* Heading */
+.development-process h2 {
+  font-size: 3rem;
+  color: #343888;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  text-align: start;
+}
+
+/* Flex Container for Image and Content */
+.process-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 1px;
+  align-items: center;
+}
+
+/* Image Styling */
+.process-image {
+  flex: 1.7;
+  text-align: center;
+}
+
+.process-image img {
+  width: 900px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Right: Content Styling */
+.process-content {
+  flex: 2;
+}
+
+.process-content ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.process-content ul li {
+  font-size: 1.5rem;
+  line-height: 1.8;
+  margin-bottom: 15px;
+  color: #424141c0;
+}
+
+.process-content ul li strong {
+  color: #343888;
+}
+
+/* Footer - Fixed the Clashing Issue */
+.footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  z-index: 10;
+  clear: both; /* Prevents merging */
+}
+
+/* Ensure Footer Doesn't Inherit Other Styles */
+.footer * {
+  all: unset;
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+}
+
+.feature-details .dev{
+  width: 200px;
+  height: 5%;
+  margin-top: 50px;
+  margin-left: 400px;
+  box-shadow: none;
+}
+  }
+
+  @media (min-width: 320px) and (max-width: 480px) {
+
+    .website-dev-container {
+      display: flex;
+      align-items: center; 
+      flex-direction: column;
+       width: 100%;
+      height: 400px;
+      margin-top: 120px  ;
+      background: #343888;
+    }
+    
+    .website-content {
+      width: 100%;
+    }
+    
+    .website-content h1 { 
+      font-size: 2rem;
+      color: #ffffff;
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 5px;
+      padding: 15px;
+    }
+    
+    .website-content h2 {
+      font-size: 0.8rem;
+      color: #dddcdc;
+      line-height: 1.5;
+      padding: 15px;
+      text-align: center;
+    }
+    
+    .website-image {
+      max-width: 300px;
+      height: 100px;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    
+    .website-image img {
+      width: 100%;
+      height: 200px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+   
+/* Services Section */
+.website-services-container {
+  padding: 40px;
+  padding-bottom: 120px; /* Extra padding to prevent footer overlap */
+  background: #ffffff;
+  display: block;
+  position: relative;
+  z-index: 5;
+}
+
+.website-services-container h2 {
+  font-size: 2.5rem;
+  color: #343888;
+  margin-bottom: 15px;
+  text-align: start;
+  text-shadow: 1px 1px 1px #5b62e4;
+}
+
+.website-services-container p {
+  font-size: 1.2rem;
+  color: #424141c0;
+}
+
+/* Services Section */
+.webdev-services {
+  padding: 40px;
+  padding-bottom: 120px; /* Extra padding to prevent footer overlap */
+  background: #ffffff;
+  display: block;
+  position: relative;
+  z-index: 5;
+}
+
+.webdev-services h2 {
+  font-size: 2.5rem;
+  color: #343888;
+  margin-bottom: 15px;
+  text-align: start;
+  text-shadow: 1px 1px 1px #5b62e4;
+}
+
+.webdev-services p {
+  font-size: 1.8rem;
+  color: #424141c0;
+}
+
+/* Features Section */
+.webdev-features {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  margin: 2px auto;
+  width: 100%;
+  max-width: 1800px;
+  background: #ffffff;
+}
+
+.webdev-feature-list {
+  display: flex;
+  flex-direction: column;
+ 
+  width:100%;
+}
+
+.webdev-feature-item {
+  background: #f9f9f9;
+  max-width: 400px;
+  height: 60px;
+  border-radius: 10px;
+  padding: 8px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.5rem;
+  font-weight: bold;
+  text-align: left;
+  display: flex;
+  align-items: start;
+  gap: 10px;
+}
+
+.webdev-feature-title {
+  font-size: 1.3rem;
+  text-align: center;
+  color: #343888;
+  font-weight: 600;
+  
+  text-shadow: 1px 1px 1px #0000005e;
+}
+
+.webdev-feature-item:hover,
+.webdev-feature-item.active {
+  background: #343888a6;
+  color: white;
+}
+
+.webdev-feature-number {
+  background: #343888;
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.webdev-feature-details {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.click {
+  width: 48px;
+  height: 48px;
+  margin-left: 230px;
+  margin-top: -60px;
+  box-shadow: none;
+  color: #343888;
+}
+
+.webdev-feature-details img {
+ 
+   width: 300px;
+  max-height: 200px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 25px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.webdev-feature-details p {
+  font-size: 1.3rem;
+  color: #343888;
+  font-weight: 500;
+  margin-left: 40px;
+  text-shadow: 1px 1px 1px #0000005e;
+}
+
+.webdev-feature-details .dev {
+ 
+  width: 200px;
+  height: 100px;
+  margin-left: 650px;
+  margin-top: 30px;
+  box-shadow: none;
+}
+.why h2{
+  font-size: 1.5rem;
+ text-align: center;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  text-shadow: 1px 1px 1px #0000005e;
+}
+
+.why p{
+  font-size: 1.5rem;
+ 
+  color: #424141c0;
+}
+
+/* Development Process */
+.development-process {
+  margin-top: 40px;
+  padding: 20px;
+  border-radius: 10px;
+  animation: fadeIn 0.8s ease-in-out;
+  margin-bottom: 100px;
+}
+
+/* Heading */
+.development-process h2 {
+  font-size: 3rem;
+  color: #343888;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  text-align: start;
+}
+
+/* Flex Container for Image and Content */
+.process-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 1px;
+  align-items: center;
+}
+
+/* Image Styling */
+.process-image {
+  flex: 1.7;
+  text-align: center;
+}
+
+.process-image img {
+  width: 900px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Right: Content Styling */
+.process-content {
+  flex: 2;
+}
+
+.process-content ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.process-content ul li {
+  font-size: 1.5rem;
+  line-height: 1.8;
+  margin-bottom: 15px;
+  color: #424141c0;
+}
+
+.process-content ul li strong {
+  color: #343888;
+}
+
+/* Footer - Fixed the Clashing Issue */
+.footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  z-index: 10;
+  clear: both; /* Prevents merging */
+}
+
+/* Ensure Footer Doesn't Inherit Other Styles */
+.footer * {
+  all: unset;
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+}
+
+.feature-details .dev{
+  width: 200px;
+  height: 5%;
+  margin-top: 50px;
+  margin-left: 400px;
+  box-shadow: none;
+}
+
+
+  }

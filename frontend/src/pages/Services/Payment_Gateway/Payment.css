@@ -1,0 +1,515 @@
+/* Main pay Development Container */
+.pay-dev-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    max-width: 2000px;
+    height: 450px;
+    margin-top: 120px;
+    background: #343888;
+  }
+  
+  .pay-content {
+    width: 100%;
+  }
+  
+  .pay-content h1 {
+    font-size: 3rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+    padding: 15px;
+  }
+  
+  .pay-content h2 {
+    text-align: left;
+    font-size: 1.2rem;
+    color: #dddcdc;
+    line-height: 1.5;
+    padding: 15px;
+    margin-left: 5px;
+  }
+  
+  .pay-image {
+    width: 1500px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .pay-image img {
+    width: 1000px;
+    height: 450px;
+    border-radius: 1px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pay-description{
+
+    height: 200px;
+    width: 1500px;
+    margin: 20px auto;
+  }
+
+  .pay-description h1{
+     font-size: 3rem;
+     text-align: center;
+     text-shadow: 1px 1px 3px #5a5959;
+  }
+
+  .pay-description p{
+    text-align: center;
+    color: #343888;
+    font-size: 20px;
+    margin: 20px 10px;
+    line-height: 50px;
+  }
+
+  .pay-description span {
+    color: #343888;
+    text-shadow: 1px 1px 3px #343888;
+  }
+
+  .pay-benefits {
+    background: linear-gradient(135deg, #f8f9fa, #324bd6);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 40px auto;
+    max-width: 1200px;
+  }
+  
+  .pay-benefits h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #343888;
+    text-shadow: 2px 5px 5px solid rgb(230, 226, 223);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  .pay-benefits ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .pay-benefits li {
+    font-size: 18px;
+    color: #444;
+    padding: 12px 15px;
+    background: #fff;
+    border-radius: 8px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pay-benefits li strong {
+    color: #343888;
+    margin-right: 8px;
+  }
+  
+  .pay-benefits li::before {
+    content: '\2714'; /* Checkmark symbol */
+    font-size: 20px;
+    color: #28a745;
+    margin-right: 10px;
+  }
+  
+
+  .pay-gateways {
+    background: #f8f9fa;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 40px auto;
+    max-width: 900px;
+  }
+  
+  .pay-gateways h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  .gateway-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .gateway-item {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+    width: 150px;
+    height: 130px;
+  }
+  
+  .gateway-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .gateway-item img {
+    width: 100px;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+  
+  .gateway-item p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #343888;
+  }
+
+
+  
+/* Large Devices (Desktops) */
+@media screen and (max-width:1440px ) and (min-width:1025px) {
+   /* Main pay Development Container */
+   .pay-dev-container {
+    display: flex;
+    align-items: center; 
+     width: 100%;
+    height: 450px;
+    margin-top: 120px  ;
+    background: #343888;
+  }
+  
+  .pay-content {
+    width: 100%;
+  }
+  
+  .pay-content h1 {
+    font-size: 2.2rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+    padding: 15px;
+  }
+  
+  .pay-content h2 {
+    font-size: 1.2rem;
+    color: #dddcdc;
+    line-height: 1.5;
+    padding: 15px;
+    
+  }
+  
+  .pay-image {
+    max-width: 800px;
+    height: 100%;
+    display: flex;
+    
+  }
+  
+  .pay-image img {
+    width: 100%;
+    height: 450px;
+    border-radius: 1px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+ 
+
+  .pay-description{
+    height: 200px;
+    max-width: 1000px;
+    margin-bottom: 100px ; 
+  }
+
+  .pay-description h1{
+     font-size: 3rem;
+     text-align: center;
+     text-shadow: 1px 1px 3px #5a5959;
+  }
+
+  .pay-description p{
+    text-align: center;
+    color: #343888;
+    font-size: 20px;
+    margin: 20px 10px;
+    line-height: 40px;
+  }
+
+  .pay-description span {
+    color: #343888;
+    text-shadow: 1px 1px 3px #343888;
+  }
+
+}
+
+/* Medium Devices (Laptops) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Main pay Development Container */
+    .pay-dev-container {
+      display: flex;
+      align-items: center; 
+       width: 100%;
+      height: 450px;
+      margin-top: 120px  ;
+      background: #343888;
+    }
+    
+    .pay-content {
+      width: 100%;
+    }
+    
+    .pay-content h1 {
+      font-size: 2.2rem;
+      color: #ffffff;
+      margin-bottom: 10px;
+      padding: 15px;
+    }
+    
+    .pay-content h2 {
+      font-size: 1.2rem;
+      color: #dddcdc;
+      line-height: 1.5;
+      padding: 15px;
+      
+    }
+    
+    .pay-image {
+      max-width: 800px;
+      height: 100%;
+      display: flex;
+      
+    }
+    
+    .pay-image img {
+      width: 100%;
+      height: 450px;
+      border-radius: 1px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .pay-description{
+      height: 200px;
+      max-width: 750px;
+      margin-bottom: 100px ; 
+    }
+  
+    .pay-description h1{
+       font-size: 3rem;
+       text-align: center;
+       text-shadow: 1px 1px 3px #5a5959;
+    }
+  
+    .pay-description p{
+      text-align: center;
+      color: #343888;
+      font-size: 18px;
+      margin: 20px auto;
+      line-height: 40px;
+    }
+  
+    .pay-description span {
+      color: #343888;
+      text-shadow: 1px 1px 3px #343888;
+    }
+  
+
+  }
+
+  /* Small Devices (Tablets) */
+  @media (min-width: 481px) and (max-width: 768px) {
+    .pay-dev-container {
+      display: flex;
+      align-items: center; 
+      flex-direction: column;
+       width: 100%;
+      height: 450px;
+      margin-top: 120px  ;
+      background: #343888;
+    }
+    
+    .pay-content {
+      width: 100%;
+    }
+    
+    .pay-content h1 { 
+      font-size: 2.2rem;
+      color: #ffffff;
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 5px;
+      padding: 15px;
+    }
+    
+    .pay-content h2 {
+      font-size: 1.2rem;
+      color: #dddcdc;
+      line-height: 1.5;
+      padding: 15px;
+      text-align: center;
+    }
+    
+    .pay-image {
+      max-width: 400px;
+      height: 100px;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    
+    .pay-image img {
+      width: 100%;
+      height: 250px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+   
+
+    
+    .pay-description{
+      height: 380px;
+      max-width: 350px;
+      margin-bottom: 0px ; 
+    }
+  
+    .pay-description h1{
+       font-size: 2rem;
+       text-align: center;
+       text-shadow: 1px 1px 3px #5a5959;
+    }
+  
+    .pay-description p{
+      text-align: center;
+      color: #343888;
+      font-size: 15px;
+      margin: 20px auto;
+      line-height: 25px;
+    }
+  
+    .pay-description span {
+      color: #343888;
+      text-shadow: 1px 1px 3px #343888;
+    }
+    .pay-benefits h2 {
+      font-size: 20px;
+      font-weight: bold;
+      color: #343888;
+      text-shadow: 2px 5px 5px solid rgb(230, 226, 223);
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+    .pay-benefits li {
+      font-size: 15px;
+      color: #444;
+      padding: 12px 15px;
+      background: #fff;
+      border-radius: 8px;
+      margin: 10px 0;
+      display: flex;
+      align-items: center;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+  }
+
+
+  @media (min-width: 320px) and (max-width: 480px) {
+
+    .pay-dev-container {
+      display: flex;
+      align-items: center; 
+      flex-direction: column;
+       width: 100%;
+      height: 400px;
+      margin-top: 120px  ;
+      background: #343888;
+    }
+    
+    .pay-content {
+      width: 100%;
+    }
+    
+    .pay-content h1 { 
+      font-size: 2rem;
+      color: #ffffff;
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 5px;
+      padding: 15px;
+    }
+    
+    .pay-content h2 {
+      font-size: 0.8rem;
+      color: #dddcdc;
+      line-height: 1.5;
+      padding: 15px;
+      text-align: center;
+    }
+    
+    .pay-image {
+      max-width: 300px;
+      height: 100px;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    
+    .pay-image img {
+      width: 100%;
+      height: 200px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+
+    
+    
+    .pay-description{
+      height: 380px;
+      max-width: 350px;
+      margin-bottom: 0px ; 
+    }
+  
+    .pay-description h1{
+       font-size: 2rem;
+       text-align: center;
+       text-shadow: 1px 1px 3px #5a5959;
+    }
+  
+    .pay-description p{
+      text-align: center;
+      color: #343888;
+      font-size: 15px;
+      margin: 20px auto;
+      line-height: 25px;
+    }
+  
+    .pay-description span {
+      color: #343888;
+      text-shadow: 1px 1px 3px #343888;
+    }
+    .pay-benefits h2 {
+      font-size: 20px;
+      font-weight: bold;
+      color: #343888;
+      text-shadow: 2px 5px 5px solid rgb(230, 226, 223);
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+    .pay-benefits li {
+      font-size: 15px;
+      color: #444;
+      padding: 12px 15px;
+      background: #fff;
+      border-radius: 8px;
+      margin: 10px 0;
+      display: flex;
+      align-items: center;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+  }

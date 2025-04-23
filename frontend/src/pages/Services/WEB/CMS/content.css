@@ -1,0 +1,1058 @@
+
+.cms-dev-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    max-width: 2000px;
+    height: 450px;
+    margin-top: 120px;
+    background: #343888;
+  }
+  
+  .cms-content {
+    width: 100%;
+  }
+  
+  .cms-content h1 {
+    font-size: 3rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+    padding: 15px;
+  }
+  
+  .cms-content h2 {
+    text-align: left;
+    font-size: 1.2rem;
+    color: #dddcdc;
+    line-height: 1.5;
+    padding: 15px;
+    margin-left: 5px;
+  }
+  
+  .cms-image {
+    width: 1500px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+     
+  }
+  
+  .cms-image img {
+    width: 1000px;
+    height: 450px;
+    border-radius: 1px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Section 2: CMS Benefits */
+.cms-benefits {
+  text-align: center;
+  padding: 60px 5%;
+  background: #f5f5f5;
+}
+
+.cms-benefits h2 {
+  font-size: 2rem;
+  color: #222;
+  margin-bottom: 20px;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.benefit-card {
+  background: #eef5ff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.benefit-card:hover {
+  transform: translateY(-5px);
+}
+
+.benefit-card span {
+  font-size: 2rem;
+  display: block;
+}
+
+.benefit-card h3 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  color: #333;
+}
+
+/* Section 3: CMS Platforms */
+.cms-platforms {
+  text-align: center;
+  padding: 60px 5%;
+
+}
+
+.cms-platforms h2 {
+  font-size: 2rem;
+  color: #222;
+  margin-bottom: 20px;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.platform-slider {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 20px;
+  scroll-behavior: smooth;
+}
+
+.platform-card {
+  min-width: 220px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.platform-card:hover {
+  transform: scale(1.05);
+}
+
+.platform-card img {
+  width: 80px;
+  height: 70px;
+  margin-bottom: 10px;
+}
+
+.platform-card h3 {
+  font-size: 1.2rem;
+  color: #222;
+}
+
+.platform-card p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+/* FAQ Section with Image */
+.cms-faq-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 5%;
+  background: #f5f5f5;
+  gap: 40px;
+}
+
+.cms-faq-content {
+  flex: 1;
+  max-width: 700px;
+}
+
+.cms-faq-content h2 {
+  font-size: 2.5rem;
+  color: #343888;
+  margin-bottom: 20px;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.faq-item {
+  background: #343888;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.faq-title {
+  display: block;
+  padding: 15px 20px;
+  font-size: 1.4rem;
+  color: #343888;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.faq-title:hover {
+  background: #343888;
+  color: white;
+}
+
+/* Hide checkbox */
+.faq-item input {
+  display: none;
+}
+
+/* FAQ Content */
+.faq-content {
+  max-height: 0;
+  overflow: hidden;
+  background: white;
+  padding: 0 20px;
+  font-size: 1rem;
+  transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+}
+
+/* Expand FAQ on click */
+.faq-item input:checked + .faq-title + .faq-content {
+  max-height: 100px;
+  padding: 15px 20px;
+}
+
+/* FAQ Image Styling */
+.cms-faq-image {
+  flex: 1;
+  text-align: right;
+}
+
+.cms-faq-image img {
+  width: 600px;
+  border-radius: 10px;
+  animation: fadeInRight 1s ease-in-out;
+}
+ 
+ 
+
+  /* Large Devices (Desktops) */
+  @media screen and (max-width:1440px ) and (min-width:1025px) {
+     /* Main cms Development Container */
+.cms-dev-container {
+  display: flex;
+  align-items: center; 
+   width: 100%;
+  height: 450px;
+  margin-top: 120px  ;
+  background: #343888;
+}
+
+.cms-content {
+  width: 100%;
+}
+
+.cms-content h1 {
+  font-size: 2.2rem;
+  color: #ffffff;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+
+.cms-content h2 {
+  font-size: 1.2rem;
+  color: #dddcdc;
+  line-height: 1.5;
+  padding: 15px;
+  
+}
+
+.cms-image {
+  max-width: 800px;
+  height: 100%;
+  display: flex;
+  
+}
+
+.cms-image img {
+  width: 100%;
+  height: 450px;
+  border-radius: 1px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+  /* Section 2: CMS Benefits */
+  .cms-benefits {
+    margin: 10px auto;
+    text-align: center;
+    padding: 60px 8%;
+    background: #f5f5f5;
+  }
+  
+  .cms-benefits h2 {
+    font-size: 2rem;
+    text-align: left;
+    width: 100%;
+    color: #222;
+    margin-bottom: 20px;
+    animation: fadeInUp 1s ease-in-out;
+  }
+  
+  .benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .benefit-card {
+    background: #eef5ff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .benefit-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .benefit-card span {
+    font-size: 2rem;
+    display: block;
+  }
+  
+  .benefit-card h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  /* Section 3: CMS Platforms */
+  .cms-platforms {
+    text-align: center;
+    padding: 60px 5%;
+  
+  }
+  
+  .cms-platforms h2 {
+    font-size: 2rem;
+    color: #222;
+    margin-bottom: 20px;
+    animation: fadeInUp 1s ease-in-out;
+  }
+  
+  .platform-slider {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px;
+    scroll-behavior: smooth;
+  }
+  
+  .platform-card {
+    min-width: 200px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .platform-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .platform-card img {
+    width: 80px;
+    height: 70px;
+    margin-bottom: 10px;
+  }
+  
+  .platform-card h3 {
+    font-size: 1.2rem;
+    color: #222;
+  }
+  
+  .platform-card p {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+
+/* FAQ Section with Image */
+.cms-faq-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 5%;
+  background: #f5f5f5;
+  gap: 40px;
+}
+
+.cms-faq-content {
+  flex: 1;
+  max-width: 1000px;
+}
+
+.cms-faq-content h2 {
+  font-size: 2.5rem;
+  color: #343888;
+  margin-bottom: 20px;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.faq-item {
+  background: #343888;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.faq-title {
+  display: block;
+  padding: 15px 20px;
+  font-size: 1.4rem;
+  color: #343888;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.faq-title:hover {
+  background: #343888;
+  color: white;
+}
+
+/* Hide checkbox */
+.faq-item input {
+  display: none;
+}
+
+/* FAQ Content */
+.faq-content {
+  max-height: 0;
+  overflow: hidden;
+  background: white;
+  padding: 0 20px;
+  font-size: 1rem;
+  transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+}
+
+/* Expand FAQ on click */
+.faq-item input:checked + .faq-title + .faq-content {
+  max-height: 100px;
+  padding: 15px 20px;
+}
+
+/* FAQ Image Styling */
+.cms-faq-image {
+  flex: 1;
+  text-align: right;
+}
+
+.cms-faq-image img {
+  width: 600px;
+  border-radius: 10px;
+  animation: fadeInRight 1s ease-in-out;
+}
+  }
+
+
+  /* Medium Devices (Laptops) */
+  @media (min-width: 769px) and (max-width: 1024px) {
+        /* Main cms Development Container */
+.cms-dev-container {
+  display: flex;
+  align-items: center; 
+   width: 100%;
+  height: 450px;
+  margin-top: 120px  ;
+  background: #343888;
+}
+
+.cms-content {
+  width: 100%;
+}
+
+.cms-content h1 {
+  font-size: 2.2rem;
+  color: #ffffff;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+
+.cms-content h2 {
+  font-size: 1.2rem;
+  color: #dddcdc;
+  line-height: 1.5;
+  padding: 15px;
+  
+}
+
+.cms-image {
+  max-width: 800px;
+  height: 100%;
+  display: flex;
+  
+}
+
+.cms-image img {
+  width: 100%;
+  height: 450px;
+  border-radius: 1px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+  /* Section 2: CMS Benefits */
+  .cms-benefits {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:0px auto;
+    text-align: center;
+    padding: 60px 5%;
+    background: #f5f5f5;
+  }
+  
+  .cms-benefits h2 {
+    font-size: 2rem;
+    color: #222;
+    margin-bottom: 20px;
+    animation: fadeInUp 1s ease-in-out;
+    text-align: center;
+  }
+  
+  .benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .benefit-card {
+    background: #eef5ff;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .benefit-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .benefit-card span {
+    font-size: 2rem;
+    display: block;
+  }
+  
+  .benefit-card h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333;
+  }
+
+
+/* FAQ Section with Image */
+.cms-faq-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f5f5f5;
+  gap: 10px;
+}
+
+.cms-faq-content {
+  flex: 1;
+  width :100%;
+  margin-left: -50px;
+ 
+ 
+}
+
+.cms-faq-content h2 {
+  font-size: 1.9rem;
+  text-align: center;
+  color: #343888;
+  margin-bottom: 20px;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.faq-container {
+ 
+  width:100%;
+}
+
+.faq-item {
+  background: #343888;
+  margin: 20px 90px;
+  width:600px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.faq-title {
+  display: block;
+  padding: 15px 20px;
+  font-size: 1.4rem;
+  color: #343888;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.faq-title:hover {
+  background: #343888;
+  color: white;
+}
+
+/* Hide checkbox */
+.faq-item input {
+  display: none;
+}
+
+/* FAQ Content */
+.faq-content {
+  max-height: 0;
+  overflow: hidden;
+  background: white;
+  padding: 0 20px;
+  font-size: 1rem;
+  transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+}
+
+/* Expand FAQ on click */
+.faq-item input:checked + .faq-title + .faq-content {
+  max-height: 100px;
+  padding: 15px 20px;
+}
+
+/* FAQ Image Styling */
+.cms-faq-image {
+  flex: 1;
+  text-align: right;
+}
+
+.cms-faq-image img {
+  width: 500px;
+  border-radius: 10px;
+  animation: fadeInRight 1s ease-in-out;
+}
+  }
+  
+    /* Small Devices (Tablets) */
+    @media (min-width: 481px) and (max-width: 768px) {
+      /* Main cms Development Container */
+.cms-dev-container {
+  display: flex;
+  align-items: center; 
+  flex-direction: column;
+   width: 100%;
+  height: 450px;
+  margin-top: 120px  ;
+  background: #343888;
+}
+
+.cms-content {
+  width: 100%;
+}
+
+.cms-content h1 { 
+  font-size: 2.2rem;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding: 15px;
+}
+
+.cms-content h2 {
+  font-size: 1.2rem;
+  color: #dddcdc;
+  line-height: 1.5;
+  padding: 15px;
+  
+}
+
+.cms-image {
+  max-width: 400px;
+  height: 100px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.cms-image img {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+  /* Section 2: CMS Benefits */
+  .cms-benefits {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:0px auto;
+    text-align: center;
+    padding: 60px 5%;
+    background: #f5f5f5;
+  }
+  
+  .cms-benefits h2 {
+    font-size: 2rem;
+    color: #222;
+    margin-bottom: 20px;
+    animation: fadeInUp 1s ease-in-out;
+    text-align: center;
+  }
+  
+  .benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+ 
+    width: 350px;
+     
+  }
+  
+  .benefit-card {
+    max-width: 600px;
+    height: 170px;
+
+    background: #eef5ff;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .benefit-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .benefit-card span {
+    font-size: 2rem;
+    display: block;
+  }
+  
+  .benefit-card h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333;
+  }
+
+
+/* FAQ Section with Image */
+.cms-faq-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f5f5f5;
+  gap: 10px;
+}
+
+.cms-faq-content {
+  flex: 1;
+  width :500px;
+  margin-left: -40px;
+ 
+ 
+}
+
+.cms-faq-content h2 {
+  font-size: 1.6rem;
+  text-align: center;
+  color: #343888;
+  margin-bottom: 20px;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.faq-container {
+  /* background: #000; */
+  margin-left: 10px;
+  max-width:300px;
+}
+
+.faq-item {
+  background: #343888;
+  margin: 10px 50px;
+  width:450px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.faq-title {
+  display: block;
+  padding: 15px 20px;
+  font-size: 1.4rem;
+  color: #343888;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.faq-title:hover {
+  background: #343888;
+  color: white;
+}
+
+/* Hide checkbox */
+.faq-item input {
+  display: none;
+}
+
+/* FAQ Content */
+.faq-content {
+  max-height: 0;
+  overflow: hidden;
+  background: white;
+  padding: 0 20px;
+  font-size: 1rem;
+  transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+}
+
+/* Expand FAQ on click */
+.faq-item input:checked + .faq-title + .faq-content {
+  max-height: 100px;
+  padding: 15px 20px;
+}
+
+/* FAQ Image Styling */
+.cms-faq-image {
+  flex: 1;
+  text-align: right;
+}
+
+.cms-faq-image img {
+  width: 500px;
+  border-radius: 10px;
+  animation: fadeInRight 1s ease-in-out;
+}
+
+
+    }
+
+
+    
+  @media (min-width: 320px) and (max-width: 480px) {
+
+    .cms-dev-container {
+      display: flex;
+      align-items: center; 
+      flex-direction: column;
+       width: 100%;
+      height: 400px;
+      margin-top: 120px  ;
+      background: #343888;
+    }
+    
+    .cms-content {
+      width: 100%;
+    }
+    
+    .cms-content h1 { 
+      font-size: 2rem;
+      color: #ffffff;
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 5px;
+      padding: 15px;
+    }
+    
+    .cms-content h2 {
+      font-size: 0.8rem;
+      color: #dddcdc;
+      line-height: 1.5;
+      padding: 15px;
+      text-align: center;
+    }
+    
+    .cms-image {
+      max-width: 300px;
+      height: 100px;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    
+    .cms-image img {
+      width: 100%;
+      height: 200px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+  
+  
+  /* Section 2: CMS Benefits */
+  .cms-benefits {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:0px auto;
+    text-align: center;
+    padding: 60px 5%;
+    background: #f5f5f5;
+  }
+  
+  .cms-benefits h2 {
+    font-size: 2rem;
+    color: #222;
+    margin-bottom: 20px;
+    animation: fadeInUp 1s ease-in-out;
+    text-align: center;
+  }
+  
+  .benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+ 
+    width: 350px;
+     
+  }
+  
+  .benefit-card {
+    max-width: 600px;
+    height: 170px;
+
+    background: #eef5ff;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .benefit-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .benefit-card span {
+    font-size: 2rem;
+    display: block;
+  }
+  
+  .benefit-card h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333;
+  }
+
+
+/* FAQ Section with Image */
+.cms-faq-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f5f5f5;
+  gap: 10px;
+}
+
+.cms-faq-content {
+  flex: 1;
+  width :500px;
+  margin-left: -40px;
+ 
+ 
+}
+
+.cms-faq-content h2 {
+  font-size: 1.6rem;
+  text-align: center;
+  color: #343888;
+  margin-bottom: 20px;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.faq-container {
+  /* background: #000; */
+  margin-left: 10px;
+  max-width:300px;
+}
+
+.faq-item {
+  background: #343888;
+  margin: 10px 50px;
+  width:450px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.faq-title {
+  display: block;
+  padding: 15px 20px;
+  font-size: 1.4rem;
+  color: #343888;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.faq-title:hover {
+  background: #343888;
+  color: white;
+}
+
+/* Hide checkbox */
+.faq-item input {
+  display: none;
+}
+
+/* FAQ Content */
+.faq-content {
+  max-height: 0;
+  overflow: hidden;
+  background: white;
+  padding: 0 20px;
+  font-size: 1rem;
+  transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+}
+
+/* Expand FAQ on click */
+.faq-item input:checked + .faq-title + .faq-content {
+  max-height: 100px;
+  padding: 15px 20px;
+}
+
+/* FAQ Image Styling */
+.cms-faq-image {
+  flex: 1;
+  text-align: right;
+}
+
+.cms-faq-image img {
+  width: 500px;
+  border-radius: 10px;
+  animation: fadeInRight 1s ease-in-out;
+}
+
+  }

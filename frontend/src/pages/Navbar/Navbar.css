@@ -1,0 +1,867 @@
+/* Navbar Container */
+.navbar-main {
+  background: #000;
+  width: 100%;
+  height: 120px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+ 
+  pointer-events: auto;
+  z-index: 1050; 
+  box-shadow: 0px 5px 10px grey;
+  overflow: visible; /* Allow dropdowns to be fully visible */
+}
+
+/* Contact Info Section */
+.nav-contact {
+  width: 100%;
+  height: 40px;
+  background-color: #343888;
+}
+.navbar-main, .nav-contact {
+  overflow: visible;
+}
+
+/* Contact Text Styling */
+.con-text  {
+  display: flex;
+  gap: 20px;
+  justify-content: end;
+  color: rgba(240, 248, 255, 0.884);
+  font-size: 18px;
+  font-weight: 100;
+  margin-right: 30px;
+  padding: 5px;
+}
+
+/* Logo Styling */
+.nav-logo img {
+  width: 250px;
+  height: 70px;
+  padding: 2px;
+  margin-top: 7px;
+  margin-left: 5px;
+}
+
+/*Menu Bar Styling */
+.menu-links{
+  background-color:#343888cc;
+  padding: 10px 20px;
+   display: flex;
+    color: white;
+    font-size: 18px;
+    height: 530px; /* Adjust as needed */
+    width: 100%;
+    list-style: none;
+    visibility: hidden;
+    
+}
+
+.menu-links li{
+  list-style: none;
+  height: 50px;
+  width: 500px;
+  padding: 20px;
+  
+}
+
+.dropdown-menu{
+  background-color: rgba(54, 47, 47, 0.575);
+  width: 250px;
+  margin-top: -30px;
+  margin-left: 100px;
+  display:  block !important;
+  z-index: 1000;
+}
+
+.dropdown-menu li{
+
+  cursor: pointer;
+  text-align: start;
+  margin-left: 60px;
+  width: 250px;
+  
+}
+
+.menu{
+  width: 150px;
+
+}
+.menu-links a{
+  color: white;
+  text-decoration: none;
+}
+
+.hamburger-menu {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+
+
+.main-links li {
+  background: rgba(0, 0, 0, 0.555);
+  width: 500px;
+  height: 50px;
+  border: 1px 1px 1px #000dfc;
+  padding: 10px
+
+}
+
+.about-menu-links{
+  visibility: hidden;
+}
+
+.about-menu-links:active{
+   visibility: visible;
+}
+
+.nested-menu{
+  background-color: rgba(245, 114, 27, 0.384);
+  width: 332px;
+  margin-top: -40px;
+  margin-left: 210px;
+}
+
+.nested-menu li{
+  color: black;
+  width: 350px;
+  text-align: left;
+  margin-left: 0px ;
+}
+/* Navigation Links Container */
+.nav-links {
+  display: flex;
+  align-items: center; /* Center links vertically with the logo */
+  gap: 20px; /* Add spacing between each link */
+  
+}
+
+/* Unordered list for navigation links */
+.nav-links ul {
+  list-style: none;
+  display: flex;
+  gap: 80px; /* Space between list items */
+  margin: 0;
+  padding: 0;
+  margin-left: 550px;
+  margin-top: -50px;
+}
+
+/* List items for navigation links */
+.nav-links ul li {
+  display: inline;
+}
+
+/* Navigation links */
+.nav-links ul li a {
+  text-decoration: none;
+  color: #343888;
+  font-weight: bold;
+  font-size: 1.7rem; /* Adjust font size as needed */
+}
+
+/* Hover effect for navigation links */
+.nav-links ul li a:hover {
+  color: #343888;
+  text-decoration: underline;
+}
+
+/* Dropdown Menu Container */
+.dropdown {
+  position: relative;/* Set parent as a reference for child positioning */
+}
+
+/* Dropdown Menu Container */
+.dropdown-content {
+  display: flex;
+  flex-direction: row; /* Side by side for Left and Right */
+  width: 910px;
+  height: 540px; /* Auto height for variable content */
+  position: absolute;
+  top: 170%;
+  left: -100px;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  z-index: 1500;
+  border: 1px solid #ddd;
+  padding: 10px;
+  visibility: visible; /* Ensure it remains visible when clicked */
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Left Section (Service Names) */
+.dropdown-left {
+  width: 50%;
+  border-right: 1px solid #ddd;
+  padding-right: 10px;
+}
+
+.dropdown-left p {
+  margin: 10px 0;
+  font-size: 1.5rem;
+  padding: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-left p:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown-left p.active {
+  background-color: #343888;
+  color: white;
+  border-radius: 5px;
+}
+
+/* Dropdown Right Section */
+.dropdown-right {
+  width: 50%;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column; /* Stack the content vertically */
+  align-items: flex-start; /* Align links to the left */
+  margin-top: 0; /* Remove the margin to fix position */
+}
+
+.dropdown-right h3 {
+  text-align: start;
+  font-size: 1.5rem;
+  color: #343888;
+}
+
+.dropdown-right p {
+  margin: 5px 0;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+/* Image styling */
+.dropdown-image {
+  margin-top: 10px;
+  width: 380px;
+  height: 200px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px; /* Add space between image and links */
+}
+
+/* Service Links Styling */
+.service-links {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+
+}
+
+/* Links styling */
+.service-links li {
+  margin: -100px 0px;
+  margin-left: -550px;
+  margin-top: 40px;
+  font-size: 15px;
+  color: #000dff;
+  display: flex;
+  align-items: flex-start;
+  
+}
+
+/* Arrow before each link */
+.service-links li::before {
+  content: "→";
+  margin-right: 10px;
+  color: #030bb1; /* Adjust the arrow color */
+  font-size: 1.2rem;
+}
+
+/* Hover Effect for Links */
+.service-links li a {
+  text-decoration: none;
+  color: #000dfc;
+  font-weight: bold;
+}
+
+.service-links li a:hover {
+  color: #343888;
+  text-decoration: underline;
+}
+
+/* Dropdown about Container */
+.about-dropdown-content {
+  display: flex;
+  flex-direction: row; /* Side by side for Left and Right */
+  font-size: 1.3rem;
+  width: 200px;
+  height: 330px; /* Auto height for variable content */
+  position: absolute;
+  top: 170%;
+  left: 0;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  z-index: 1500;
+  border: 1px solid #ddd;
+  padding: 10px;
+  visibility: visible; /* Ensure it remains visible when clicked */
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Left Section (Service Names) */
+.about-left {
+  width: 100%;
+  padding-right: 20px;
+}
+
+.about-left p {
+  margin: 10px 0;
+  padding: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.about-left p:hover {
+  background-color: #f1f1f1;
+}
+
+.about-left p.active {
+  background-color: #343888;
+  color: white;
+  border-radius: 5px;
+}
+
+
+
+/* Large Devices (Desktops) */
+@media screen and (max-width:1920px ) and (min-width:1025px) {
+  .menu-links{
+    visibility: hidden;
+  }
+  .con-text  {
+    display: flex;
+    gap: 20px;
+    color: rgba(240, 248, 255, 0.884);
+    font-size: 18px;
+    font-weight: 100;
+    margin-right: 40px;
+    padding: 5px;
+  }
+  .nav-links ul{
+    margin-left: 350px;
+  }
+  .nav-links ul li a{
+    font-size: 1.5rem;
+    margin-left: 40px;
+    gap: 10px;
+  }
+
+.dropdown-content{
+ 
+  display: flex;
+  flex-direction: row; /* Side by side for Left and Right */
+  width: 770px;
+  height: 500px; /* Auto height for variable content */
+  position: absolute;
+  top: 150%;
+  background-color: white;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+    
+  }
+
+  /* Left Section (Service Names) */
+.dropdown-left {
+  width: 40%;;
+  border-right: 1px solid #ddd;
+  padding-right: 10px;
+}
+
+.dropdown-right h3 {
+  margin: 0;
+  font-size: 1.3rem;
+  color: #343888;
+}
+
+.dropdown-right p {
+  margin: 5px 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Image styling */
+.dropdown-image {
+  margin-top: 5px;
+  width: 350px;
+  height: 150px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px; /* Add space between image and links */
+}
+
+/* Links styling */
+.service-links li {
+
+  font-size: 0.8rem;
+  margin: -100px 0px;
+  margin-left: -350px;
+  margin-top: 40px;
+  color: #000dff;
+  display: flex;
+  align-items: flex-start;
+  
+}
+
+/* Arrow before each link */
+.service-links li::before {
+  content: "→";
+  color: #030bb1; /* Adjust the arrow color */
+  font-size: 1rem;
+}
+
+/* Dropdown about Container */
+.about-dropdown-content {
+  display: flex;
+  flex-direction: row; /* Side by side for Left and Right */
+  font-size: 1.3rem;
+  width: 200px;
+  height: 330px; /* Auto height for variable content */
+  position: absolute;
+  top: 180%;
+  left: 0px;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  z-index: 1500;
+  border: 1px solid #ddd;
+  padding: 10px;
+  visibility: visible; /* Ensure it remains visible when clicked */
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}  
+
+
+}
+
+/* Medium Devices (Laptops) */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  .menu-links{
+    visibility: hidden;
+  }
+  /* Unordered list for navigation links */
+  .nav-links ul {
+    list-style: none;
+    display: flex;
+    gap: 80px; /* Space between list items */
+    margin-left: 100px;
+
+  }
+  
+  .nav-links ul li a{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: -60px;
+    gap: 10px;
+  }
+
+  .nav-links ul {
+    margin-left: 350px;
+    
+  }
+
+  
+/* Dropdown Menu Container */
+.dropdown-content {
+  display: flex;
+  flex-direction: row; /* Side by side for Left and Right */
+  width: 520px;
+  height: 450px; /* Auto height for variable content */
+  position: absolute;
+  top: 170%;
+  left: -350px;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  z-index: 1500;
+  border: 1px solid #ddd;
+  padding: 10px;
+  visibility: visible; /* Ensure it remains visible when clicked */
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Left Section (Service Names) */
+.dropdown-left {
+  width: 40%;
+  border-right: 1px solid #ddd;
+  padding-right: 10px;
+}
+
+.dropdown-left p {
+  margin: 10px 0;
+  padding: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-left p:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown-left p.active {
+  background-color: #343888;
+  color: white;
+  border-radius: 5px;
+}
+
+/* Dropdown Right Section */
+.dropdown-right {
+  width: 60%;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column; /* Stack the content vertically */
+  align-items: flex-start; /* Align links to the left */
+  margin-top: 0; /* Remove the margin to fix position */
+}
+
+.dropdown-right h3 {
+  margin: 0;
+  font-size: 1.4rem;
+  color: #343888;
+}
+
+.dropdown-right p {
+  margin: 5px 0;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+/* Image styling */
+.dropdown-image {
+  margin-top: 10px;
+  width: 280px;
+  height: 150px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px; /* Add space between image and links */
+}
+
+/* Links styling */
+.service-links li {
+  margin: -100px 0px;
+  margin-left: -350px;
+  margin-top: 40px;
+  font-size: 15px;
+  color: #000dff;
+  display: flex;
+  align-items: flex-start;
+  
+}
+
+/* Arrow before each link */
+.service-links li::before {
+  content: "→";
+  margin-right: 62px;
+  color: #030bb1; /* Adjust the arrow color */
+  font-size: 1.2rem;
+}
+
+/* Dropdown about Container */
+.about-dropdown-content {
+  display: flex;
+  flex-direction: row; /* Side by side for Left and Right */
+  font-size: 1.3rem;
+  width: 200px;
+  height: 330px; /* Auto height for variable content */
+  position: absolute;
+  top: 260%;
+  left: -90px;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  z-index: 1500;
+  border: 1px solid #ddd;
+  padding: 10px;
+  visibility: visible; /* Ensure it remains visible when clicked */
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}  
+
+}
+
+
+
+
+
+  @media (min-width: 481px) and (max-width: 768px) {
+    body, html {
+      overflow-x: hidden;
+    }
+    
+    /* Navbar Container */
+  .navbar-main { 
+    max-width: 100vw;
+    height: 120px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 1000; 
+    box-shadow: 0px 5px 10px grey;
+    overflow: visible; /* Allow dropdowns to be fully visible */
+  }
+    .nav-logo img {
+      
+      width: 240px;
+      height: 70px;
+      padding: 5px;
+      margin: 1px 40px;
+    }
+    .con-text  {
+      text-align: start;
+      gap: 12px;
+      color: rgba(240, 248, 255, 0.884);
+      font-size: 15px;
+      font-weight: 100;
+      
+    }
+ 
+    /* Contact Info Section */
+    .nav-contact {
+      width: 100%;
+      height: 30px;
+      background-color: #343888;
+    }
+    .navbar-main, .nav-contact {
+      overflow: visible;
+    }
+
+    .con-text h4{
+      text-align:start;
+    }
+
+
+  .nav-links {
+    visibility: hidden;
+  }
+  .hamburger-menu {
+    display: block;
+    position: absolute;
+    top: 15px;
+    margin-left: 10px;
+    align-items: start;
+  }
+
+  .menu-links {
+    visibility: visible;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    font-size: 15px;
+    top: 100px;
+    height: 630px; /* Adjust as needed */
+    width: 100%;
+    background: #343888d7;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .menu-links.open {
+    display: flex;
+  }
+
+  .menu {
+    flex-direction: column;
+  }
+
+  .nested-menu{
+    background-color: rgba(245, 114, 27, 0.384);
+    font-size: 12px;
+    width: 210px;
+    margin-top: -40px;
+    margin-left: 162px;
+  }
+  .nested-menu li{
+   
+    font-size: 13px;
+    margin-left: 8px;
+  }
+ 
+
+  .dropdown li{
+    width: 20px;
+  }
+  .dropdown-menu{
+    background-color: rgba(54, 47, 47, 0.575);
+    width: 180px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: -30px;
+    margin-left: 100px;
+    display:  block !important;
+    z-index: 1000;
+  }
+  .dropdown-menu li{
+ 
+    cursor: pointer;
+    text-align: start;
+    margin-left: 0px;
+    width: 180px;
+    
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  body, html {
+    overflow-x: hidden;
+  }
+  
+  /* Navbar Container */
+.navbar-main { 
+  max-width: 100vw;
+  height: 120px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  z-index: 1000; 
+  box-shadow: 0px 5px 10px grey;
+  overflow: visible; /* Allow dropdowns to be fully visible */
+}
+  .nav-logo img {
+    
+    width: 240px;
+    height: 70px;
+    padding: 5px;
+    margin: 5px 40px;
+  }
+  .con-text  {
+     
+    text-align: center;
+    gap: 12px;
+    color: rgba(240, 248, 255, 0.884);
+    font-size: 10px;
+    font-weight: 100;
+    
+  }
+
+  /* Contact Info Section */
+  .nav-contact {
+    width: 100%;
+    height: 30px;
+    background-color: #343888;
+  }
+  .navbar-main, .nav-contact {
+    overflow: visible;
+  }
+
+  .con-text h4{
+    text-align:start;
+  }
+
+
+.nav-links {
+  visibility: hidden;
+}
+.hamburger-menu {
+  display: block;
+  position: absolute;
+  top: 15px;
+  margin-left: 10px;
+  align-items: start;
+}
+
+.menu-links {
+  visibility: visible;
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  font-size: 10px;
+  top: 100px;
+  height: 620px; /* Adjust as needed */
+  width: 100%;
+  background: #343888d7;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu-links.open {
+  display: flex;
+}
+
+.menu {
+  flex-direction: column;
+ 
+}
+
+ 
+
+.nested-menu{
+  background-color: rgba(245, 114, 27, 0.384);
+  font-size: 8px;
+  width: 150px;
+  margin-top: -35px;
+  margin-left: 110px;
+}
+.nested-menu li{
+  
+   font-size: 10px;
+  margin-left: 0px;
+}
+
+.dropdown {
+  position: static;/* Set parent as a reference for child positioning */
+}
+
+.dropdown li{
+ 
+  width: 8px;
+}
+.dropdown-menu{
+  background-color: rgba(54, 47, 47, 0.575);
+  width: 140px;
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: -30px;
+  margin-left: 60px;
+  display:  block !important;
+  z-index: 1000;
+}
+.dropdown-menu li{
+ 
+  cursor: pointer;
+  text-align: start;
+  margin-left: 0px;
+   width: 120px;
+  
+}
+}

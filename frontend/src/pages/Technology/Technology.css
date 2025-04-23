@@ -1,0 +1,207 @@
+.technology-container {
+    width: 100%;  
+    text-align: center;
+    padding: 60px 30px;
+    margin-left: 0px;
+    background: #ffffff;
+
+  }
+  
+  .title {
+    font-size: 3rem;
+    color: #343888;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    font-weight: 600;
+    margin-left: 40px;
+    text-align: left;
+    text-shadow: 1px 1px 1px #0000005e;
+}
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(120px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    max-width: 800px;
+    margin-left: 650px;
+    margin-top: -120px;
+   
+  }
+  
+  .tech-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f8f8f8;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .tech-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .tech-icon img {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .tech-name {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
+/* Large Devices (Desktops) */
+  @media screen and (max-width:1440px ) and (min-width:1025px) {
+  
+    .title {
+      font-size: 3rem;
+      color: #343888;
+      margin-bottom: 20px;
+      margin-top: 10px;
+      font-weight: 600;
+      margin: auto;
+      text-align: center;
+      text-shadow: 1px 1px 1px #0000005e;
+  }
+    
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(120px, 1fr));
+      align-items: center;
+      gap: 20px;
+      justify-content: center;
+      max-width: 700px;
+      margin: 20px auto;
+     
+    }
+    .tech-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: #f8f8f8;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
+    }
+    
+  }
+
+
+  
+
+  /* Small Devices (Tablets) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .title {
+    font-size: 2.5rem;
+    color: #343888;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-weight: 600;
+    margin: auto;
+    text-align: center;
+    text-shadow: 1px 1px 1px #0000005e;
+}
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(120px, 1fr));
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    max-width: 700px;
+    margin: 20px auto;
+   
+  }
+  .tech-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f8f8f8;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+}
+
+/* Medium Devices (Laptops) */
+@media (min-width: 769px) and (max-width: 1024px) {
+   .title {
+      font-size: 3rem;
+      color: #343888;
+      margin-bottom: 20px;
+      margin-top: 10px;
+      font-weight: 600;
+      margin: auto; 
+      text-align: center;
+      text-shadow: 1px 1px 1px #0000005e;
+  }
+    
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(120px, 1fr));
+      align-items: center;
+      gap: 20px;
+      justify-content: center;
+      max-width: 700px;
+      margin: 20px auto;
+     
+    }
+    .tech-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: #f8f8f8;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
+    }
+    
+}
+
+
+  /* Small Devices (Tablets) */
+  @media (min-width: 320px) and (max-width: 480px) {
+    .title {
+      font-size: 1.7rem;
+      color: #343888;
+      margin-bottom: 20px;
+      margin-top: 10px;
+      font-weight: 600;
+      margin: auto;
+      text-align: center;
+      text-shadow: 1px 1px 1px #0000005e;
+  }
+    
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(120px, 1fr));
+      align-items: center;
+      gap: 20px;
+      justify-content: center;
+      max-width: 700px;
+      margin: 20px auto;
+     
+    }
+    .tech-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: #f8f8f8;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
+    }
+    
+  }
+  

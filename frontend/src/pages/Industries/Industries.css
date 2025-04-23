@@ -1,0 +1,245 @@
+/* Industries.css */
+
+.industries-container {
+    
+    padding: 2rem 1rem;
+    background-color: #343888; /* Light blue background */
+    height: 300px;
+    margin-bottom: 20px;
+  }
+  
+  .industries-heading {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #ffffff; /* Deep blue color */
+  }
+  
+  .industry-card {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .card-content {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    width: 300px;
+    height: 200px;
+    
+  }
+  
+  .card-content:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+  }
+  
+  .industry-image {
+    width: 100%;
+    height: 100px;
+    object-fit: fit;
+    border-bottom: 2px solid #1a237e; /* Blue divider */
+  }
+  
+  .card-text {
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .industry-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .industry-description {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .slick-dots {
+   display: none;
+  }
+  
+  .slick-dots li button:before {
+    color: #1a237e; /* Blue color for dots */
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: #3949ab; /* Darker blue for active dot */
+  }
+  /* Large Devices (Desktops) */
+@media screen and (max-width:1440px ) and (min-width:1025px) {
+        /* Industries.css */
+
+      .industries-container {
+          
+        padding: 2rem 1rem;
+        background-color: #343888; /* Light blue background */
+        height: 320px;
+        margin-bottom: 20px;
+      }
+
+      .industries-heading {
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 1.5rem;
+        color: #ffffff; /* Deep blue color */
+      }
+
+      .industry-card {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+      }
+
+      .card-content {
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        transition: transform 0.3s ease;
+        width: 340px;
+        height: 200px;
+        min-width: 240px;
+        min-height: 200px;
+        
+      }
+
+      .card-content:hover {
+        transform: scale(1.05); /* Slight zoom effect on hover */
+      }
+
+      .industry-image {
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+        border-bottom: 2px solid #1a237e; /* Blue divider */
+      }
+
+      .card-text {
+        padding: 1rem;
+        text-align: center;
+      }
+
+      .industry-title {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 0.5rem;
+      }
+
+      .industry-description {
+        font-size: 0.9rem;
+        color: #666;
+      }
+
+      .slick-dots {
+      display: none;
+      }
+
+      .slick-dots li button:before {
+        color: #1a237e; /* Blue color for dots */
+      }
+
+      .slick-dots li.slick-active button:before {
+        color: #3949ab; /* Darker blue for active dot */
+      }
+}
+
+
+/* Medium Devices (Laptops) */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  /* Industries.css */
+
+  .industries-container {
+          
+    padding: 2rem 1rem;
+    background-color: #343888; /* Light blue background */
+    height: 320px;
+    margin-bottom: 20px;
+  }
+
+  .industries-heading {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #ffffff; /* Deep blue color */
+  }
+
+  .industry-card {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .card-content {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    width: 240px;
+    height: 200px;
+    
+  }
+
+  .card-content:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+  }
+
+  .industry-image {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-bottom: 2px solid #1a237e; /* Blue divider */
+  }
+
+  .card-text {
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .industry-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+
+  .industry-description {
+    font-size: 0.9rem;
+    color: #666;
+  }
+
+  .slick-dots {
+  display: none;
+  }
+
+  .slick-dots li button:before {
+    color: #1a237e; /* Blue color for dots */
+  }
+
+  .slick-dots li.slick-active button:before {
+    color: #3949ab; /* Darker blue for active dot */
+  }
+}
+
+  /* Small Devices (Tablets) */
+  @media (min-width: 481px) and (max-width: 768px) {}

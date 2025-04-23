@@ -1,0 +1,543 @@
+/* Main content Development Container */
+.content-dev-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    max-width: 2000px;
+    height: 450px;
+    margin-top: 120px;
+    background: #343888;
+  }
+  
+  .content-content {
+    width: 100%;
+  }
+  
+  .content-content h1 {
+    font-size: 3rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+    padding: 15px;
+  }
+  
+  .content-content h2 {
+    text-align: left;
+    font-size: 1.2rem;
+    color: #dddcdc;
+    line-height: 1.5;
+    padding: 15px;
+    margin-left: 5px;
+  }
+  
+  .content-image {
+    width: 1500px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .content-image img {
+    width: 1000px;
+    height: 450px;
+    border-radius: 1px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+
+ 
+/* Technology Section */
+.technology-section {
+  text-align: center;
+  padding: 50px;
+  background-color: #fff;
+}
+
+.technology-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  justify-content: center;
+}
+
+.tech-card {
+  padding: 15px;
+  background-color: #343888;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+  text-align: center;
+  transition: transform 0.3s ease-in-out, background 0.3s ease;
+}
+
+.tech-card:hover {
+  transform: scale(1.05);
+  background-color: #343888d5;
+}
+
+/* Call to Action Section */
+.cta-section {
+  text-align: center;
+  padding: 50px;
+  background: linear-gradient(to right, #343888, #343888);
+  color: white;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.cta-section h2 {
+  color: #ffffff;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.cta-button {
+  margin-top: 15px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  background-color: white;
+  color: #343888;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #343888d5;
+  border: 1px solid white;
+  color: white;
+}
+
+
+/* Technology Section */
+.technology-section {
+  text-align: center;
+  padding: 50px;
+  background-color: #fff;
+}
+
+.technology-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  justify-content: center;
+}
+
+.tech-card {
+  padding: 15px;
+  background-color: #343888;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+  text-align: center;
+  transition: transform 0.3s ease-in-out, background 0.3s ease;
+}
+
+.tech-card:hover {
+  transform: scale(1.05);
+  background-color: #3438889f;
+}
+
+/* Call to Action Section */
+.cta-section {
+  text-align: center;
+  padding: 50px;
+  background: #343888;
+  color: white;
+  margin-top: 50px;
+  border-radius: 0;
+}
+
+.cta-section h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.cta-button {
+  margin-top: 15px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  background-color: white;
+  color: #343888;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #343888;
+  color: white;
+}
+
+/* Content Marketing Benefits Section */
+.content-marketing-benefits {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+}
+
+.content-marketing-benefits h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.content-marketing-benefits p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+/* Benefits Grid */
+.content-marketing-benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Benefit Card */
+.content-marketing-benefit-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-marketing-benefit-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Benefit Card Image */
+.content-marketing-benefit-card img {
+  width: 100%; /* Adjust size as needed */
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+/* Benefit Card Text */
+.content-marketing-benefit-card p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .content-marketing-benefits-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+
+  .content-marketing-benefit-card {
+    font-size: 16px;
+    padding: 15px;
+  }
+
+  .content-marketing-benefit-card img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .content-marketing-benefits h2 {
+    font-size: 28px;
+  }
+
+  .content-marketing-benefits p {
+    font-size: 16px;
+  }
+}
+
+
+/* Large Devices (Desktops) */
+@media screen and (max-width:1440px ) and (min-width:1025px) {
+  /* Main content Development Container */
+  .content-dev-container {
+   display: flex;
+   align-items: center; 
+    width: 100%;
+   height: 450px;
+   margin-top: 120px  ;
+   background: #343888;
+ }
+ 
+ .content-content {
+   width: 100%;
+ }
+ 
+ .content-content h1 {
+   font-size: 2.2rem;
+   color: #ffffff;
+   margin-bottom: 10px;
+   padding: 15px;
+ }
+ 
+ .content-content h2 {
+   font-size: 1.2rem;
+   color: #dddcdc;
+   line-height: 1.5;
+   padding: 15px;
+   
+ }
+ 
+ .content-image {
+   max-width: 800px;
+   height: 100%;
+   display: flex;
+   
+ }
+ 
+ .content-image img {
+   width: 100%;
+   height: 450px;
+   border-radius: 1px;
+   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+ }
+
+ 
+/* FAQ Section */
+.faq-section {
+  padding: 50px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.faq-section h2 {
+  font-size: 2rem;
+  color: #343888;
+  margin-bottom: 10px;
+}
+
+.faq-section p {
+  font-size: 1rem;
+  color: #343888c2;
+  margin-bottom: 20px;
+}
+
+.faq-container {
+  margin-top: 30px;
+  display: flex;
+  width: 800px;
+}
+
+.faq-item {
+  background: white;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.faq-item:hover {
+  background-color: #343888be;
+}
+
+.faq-question {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #343888;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.faq-answer {
+  font-size: 1rem;
+  color: #343888;
+  display: none;
+  padding: 10px;
+}
+
+.faq-item.active .faq-answer {
+  display: block;
+}
+
+.faq-con{
+  display: flex;
+  
+}
+
+.faq-con img{
+  width: 450px;
+  height: 500px;
+  border-radius: 1px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+}
+
+
+/* Medium Devices (Laptops) */
+@media (min-width: 769px) and (max-width: 1024px) {
+   /* Main content Development Container */
+   .content-dev-container {
+     display: flex;
+     align-items: center; 
+      width: 100%;
+     height: 450px;
+     margin-top: 120px  ;
+     background: #343888;
+   }
+   
+   .content-content {
+     width: 100%;
+   }
+   
+   .content-content h1 {
+     font-size: 2.2rem;
+     color: #ffffff;
+     margin-bottom: 10px;
+     padding: 15px;
+   }
+   
+   .content-content h2 {
+     font-size: 1.2rem;
+     color: #dddcdc;
+     line-height: 1.5;
+     padding: 15px;
+     
+   }
+   
+   .content-image {
+     max-width: 800px;
+     height: 100%;
+     display: flex;
+     
+   }
+   
+   .content-image img {
+     width: 100%;
+     height: 450px;
+     border-radius: 1px;
+     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+   }
+   
+
+}
+
+/* Small Devices (Tablets) */
+@media (min-width: 481px) and (max-width: 768px) {
+ .content-dev-container {
+   display: flex;
+   align-items: center; 
+   flex-direction: column;
+    width: 100%;
+   height: 450px;
+   margin-top: 120px  ;
+   background: #343888;
+ }
+ 
+ .content-content {
+   width: 100%;
+ }
+ 
+ .content-content h1 { 
+   font-size: 2.2rem;
+   color: #ffffff;
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 5px;
+   padding: 15px;
+ }
+ 
+ .content-content h2 {
+   font-size: 1.2rem;
+   color: #dddcdc;
+   line-height: 1.5;
+   padding: 15px;
+   text-align: center;
+ }
+ 
+ .content-image {
+   max-width: 400px;
+   height: 100px;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+ }
+ 
+ .content-image img {
+   width: 100%;
+   height: 250px;
+   border-radius: 10px;
+   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+ }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .content-dev-container {
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+     width: 100%;
+    height: 400px;
+    margin-top: 120px  ;
+    background: #343888;
+  }
+  
+  .content-content {
+    width: 100%;
+  }
+  
+  .content-content h1 { 
+    font-size: 2rem;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 15px;
+  }
+  
+  .content-content h2 {
+
+    font-size: 0.8rem;
+    color: #dddcdc;
+    line-height: 1.5;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .content-image {
+    max-width: 300px;
+    height: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .content-image img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+ }

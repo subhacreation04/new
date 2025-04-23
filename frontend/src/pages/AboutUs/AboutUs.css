@@ -1,0 +1,1148 @@
+/* Main aboutUs Development Container */
+.aboutUs-dev-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    max-width: 2000px;
+    height: 450px;
+    margin-top: 120px;
+    background: #343888;
+  }
+  
+  .aboutUs-content {
+    width: 100%;
+  }
+  
+  .aboutUs-content h1 {
+    font-size: 3rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+    padding: 15px;
+  }
+  
+  .aboutUs-content h2 {
+    text-align: left;
+    font-size: 1.2rem;
+    color: #dddcdc;
+    line-height: 1.5;
+    padding: 15px;
+    margin-left: 5px;
+  }
+  
+  .aboutUs-image {
+    width: 1500px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .aboutUs-image img {
+    width: 1000px;
+    height: 450px;
+    border-radius: 1px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .aboutUs-tagline{
+    text-align: center;
+    margin: 0px 0px;
+    background: #e7e3e391;
+  }
+  .aboutUs-tagline h1{
+    margin: 10px auto;
+    font-size: 3rem;
+    font-weight: 550;
+ 
+  }
+
+  .aboutUs-tagline span{
+    color: #343888;
+    font-weight: 200;
+  }
+  .aboutUs-tagline h3{
+    font-size: 1.5rem;
+    margin-top: 10px;
+    font-weight: 300;
+    color: #0707079a;
+  }
+  .aboutUs-tagline h4{
+    margin-top: 10px;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #0707079a;
+  }
+
+
+  .brief-intro{
+    margin-top: 50px ;
+    display: flex;
+    flex-direction: row;
+    gap: 50px ;
+    width: 100%;
+  }
+
+  .brief-intro h1{
+    color: #343888;
+    font-size: 3rem;
+    text-align: center;
+  }
+  .brief-intro h2{
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: normal;
+    line-height: 50px ;
+  }
+
+  .intro-info{
+    width: 80%;
+    height: auto;
+  }
+
+  .intro-img{
+    width: 70%;
+    height: auto;
+  }
+  .intro-img img{
+    margin: 0px auto;
+    padding: 5px ;
+    width: 100%;
+    height: auto;
+  }
+  .about-intro{
+    display: flex;
+
+  }
+
+
+  .left-about-image img{
+    width: 90%;
+    height: 90%;
+    margin-top:-20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.right-about-content{
+    width: 130%;
+    height: 100%;
+   
+}
+
+.right-about-content h2{
+    color: #343888;
+    margin-top: -10px;
+    line-height: 50px;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+
+.capabilities-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .capabilities-section h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .capabilities-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .capability-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 550px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .capability-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .capability-icon {
+    font-size: 40px;
+    color: #343888;
+    margin-bottom: 15px;
+  }
+  
+  .capability-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .capability-description {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+
+  .container {
+    width: 100%;
+ 
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.container h1, h2 {
+  font-size: 2.5rem;
+  margin: 20px 0px;
+  text-align: center;
+    color: #343888;
+}
+.container p{
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 50px ;
+ color: #000000;
+}
+
+.leader-wrap{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 20px ;
+}
+.leader {
+  text-align: center;
+    width: 40%;
+   
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 5px solid #343888;
+    background: #eef5ff;
+    border-radius: 5px;
+}
+.leader h3 {
+  font-size: 2rem;
+    margin: 0;
+    color: #343888;
+}
+
+.leader p{
+  font-size: 1rem;
+}
+
+.leader li{
+  list-style: none;
+}
+.quote {
+    font-style: italic;
+    color: #555;
+    margin-top: 10px;
+}
+
+
+
+  .brief-introduction h1{
+    color: #343888;
+    font-size: 3rem;
+    text-align: center;
+  }
+
+
+
+  .para1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #343888;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-top: 50px;
+    gap: 20px;
+    line-height: 45px;
+  }
+
+  .para1 img{
+    margin-left: 20px;
+    width: 700px;
+    height: 400px;
+  }
+
+  .para2 img{
+    margin-right: 20px;
+    width: 700px;
+    height: 400px;
+  }
+
+  .para2{
+    color: #343888;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: 1.6rem;
+    gap: 20px;
+    line-height: 50px;
+  }
+
+
+  .about-choose {
+    background-color: #f8f9fa;
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 40px 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-choose h2 {
+    font-size: 2.5rem;
+    color: #343888;
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  .about-choose ul {
+    list-style: none;
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about-choose li {
+    font-size: 1.1rem;
+    color: #555;
+    padding: 15px 20px;
+    margin: 10px 0;
+    background: #fff;
+    border-left: 5px solid #343888;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    border-radius: 5px;
+  }
+  
+  .about-choose li strong {
+    color: #343888;
+    font-size: 1.2rem;
+  }
+  
+
+
+  @media screen and (max-width:1440px ) and (min-width:1025px) {
+     /* Main ad Development Container */
+  .aboutUs-dev-container {
+    display: flex;
+    align-items: center; 
+     width: 100%;
+    height: 450px;
+    margin-top: 120px  ;
+    background: #343888;
+  }
+  
+  .aboutUs-content {
+    width: 100%;
+  }
+  
+  .aboutUs-content h1 {
+    font-size: 2.2rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+    padding: 15px;
+  }
+  
+  .aboutUs-content h2 {
+    font-size: 1.2rem;
+    color: #dddcdc;
+    line-height: 1.5;
+    padding: 15px;
+    
+  }
+  
+  .aboutUs-image {
+    max-width: 800px;
+    height: 100%;
+    display: flex;
+    
+  }
+  
+  .aboutUs-image img {
+    width: 100%;
+    height: 450px;
+    border-radius: 1px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  
+  .brief-intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px ;
+    width: 100%;
+  }
+
+  .brief-intro h1{
+    color: #343888;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .brief-intro h2{
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: normal;
+    line-height: 50px ;
+  }
+
+  .intro-info{
+    width: 90%;
+    height: auto;
+  }
+
+  .intro-img{
+    width: 70%;
+    height: auto;
+  }
+  .intro-img img{
+    margin: 0px auto;
+    padding: 5px ;
+    width: 100%;
+    height: auto;
+  }
+
+
+    .left-about-image img{
+      width: 80%;
+      height: 70%;
+      margin-top:20px;
+      margin-left: 20px;
+      margin-bottom: 30px;
+  }
+  
+  .right-about-content{
+      width: 180%;
+     
+  }
+  
+  .right-about-content h2{
+      color: #343888;
+      margin-top: -15px;
+      font-size: 1.4rem;
+      font-weight: 600;
+  }
+
+  .para1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 40px;
+    color: #343888;
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin-top: 50px;
+    gap: 20px;
+  }
+
+  .para1 img{
+    margin-left: 20px;
+    width: 500px;
+    height: 350px;
+  }
+
+  .para2 img{
+    margin-right: 20px;
+    width: 500px;
+    height: 350px;
+  }
+
+  .para2{
+    color: #343888;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    line-height: 40px;
+    margin-left: 10px;
+    margin-top: 50px;
+    font-weight: 200;
+    font-size: 1.2rem;
+    gap: 20px;
+  }
+
+  .capabilities-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .capabilities-section h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .capabilities-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .capability-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 450px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .capability-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .capability-icon {
+    font-size: 35px;
+    color: #343888;
+    margin-bottom: 15px;
+  }
+  
+  .capability-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .capability-description {
+    font-size: 0.8rem;
+    color: #666;
+  }
+  
+  .brief-introduction h1{
+    color: #343888;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+
+  }
+
+
+/* Medium Devices (Laptops) */
+@media (min-width: 769px) and (max-width: 1024px) {
+   /* Main ad Development Container */
+   .aboutUs-dev-container {
+    display: flex;
+    align-items: center; 
+     width: 100%;
+    height: 450px;
+    margin-top: 120px  ;
+    background: #343888;
+  }
+  
+  .aboutUs-content {
+    width: 100%;
+  }
+  
+  .aboutUs-content h1 {
+    font-size: 2.2rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+    padding: 15px;
+  }
+  
+  .aboutUs-content h2 {
+    font-size: 1.2rem;
+    color: #dddcdc;
+    line-height: 1.5;
+    padding: 15px;
+    
+  }
+  
+  .aboutUs-image {
+    max-width: 800px;
+    height: 100%;
+    display: flex;
+    
+  }
+  
+  .aboutUs-image img {
+    width: 100%;
+    height: 450px;
+    border-radius: 1px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .aboutUs-tagline{
+    text-align: center;
+    margin: 50px 0px;
+    background: #e7e3e391;
+  }
+  .aboutUs-tagline h1{
+    font-size: 2.5rem;
+    font-weight: 550;
+ 
+  }
+
+  .aboutUs-tagline span{
+    color: #343888;
+    font-weight: 200;
+  }
+  .aboutUs-tagline h3{
+    font-size: 1.3rem;
+    margin-top: 10px;
+    font-weight: 300;
+    color: #0707079a;
+  }
+  .aboutUs-tagline h4{
+    margin-top: 10px;
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: #0707079a;
+  }
+
+  
+  
+  .brief-intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px ;
+    width: 100%;
+  }
+
+  .brief-intro h1{
+    color: #343888;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .brief-intro h2{
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: normal;
+    line-height: 50px ;
+  }
+
+  .intro-info{
+    width: 90%;
+    height: auto;
+  }
+
+  .intro-img{
+    width: 70%;
+    height: auto;
+  }
+  .intro-img img{
+    margin: 0px auto;
+    padding: 5px ;
+    width: 100%;
+    height: auto;
+  }
+
+
+
+  .about-intro{
+    display: flex;
+
+  }
+
+
+  .left-about-image img{
+    width: 250px;
+    height: 290px;
+    margin-top:-20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.right-about-content{
+    width: 100%;
+    height: 100%;
+   
+}
+
+.right-about-content h2{
+    color: #343888;
+    margin-top: -10px;
+    line-height: 40px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+.capabilities-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .capabilities-section h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .capabilities-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .capability-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 550px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .capability-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .capability-icon {
+    font-size: 40px;
+    color: #343888;
+    margin-bottom: 15px;
+  }
+  
+  .capability-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .capability-description {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+
+
+  .brief-introduction h1{
+    color: #343888;
+    font-size: 3rem;
+    text-align: center;
+  }
+
+
+
+  .para1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #343888;
+    font-size: 0.7rem;
+    font-weight:600;
+    margin-top: 30px;
+    gap: 20px;
+    line-height: 27px;
+  }
+
+  .para1 img{
+    margin-left: 20px;
+    width: 350px;
+    height: 300px;
+  }
+
+  .para2 img{
+    margin-right: 20px;
+    width: 350px;
+    height: 300px;
+  }
+
+  .para2{
+    color: #343888;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 0.8rem;
+    gap: 20px;
+    line-height: 27px;
+  }
+
+
+  .about-choose {
+    background-color: #f8f9fa;
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 40px 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-choose h2 {
+    font-size: 2rem;
+    color: #343888;
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  .about-choose ul {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .about-choose li {
+    font-size: 0.8rem;
+    color: #555;
+    padding: 15px 20px;
+    margin: 10px 0;
+    background: #fff;
+    border-left: 5px solid #343888;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    font-weight: 600;
+    border-radius: 5px;
+  }
+  
+  .about-choose li strong {
+    color: #343888;
+    font-size: 1rem;
+  }
+  
+}
+
+
+  /* Small Devices (Tablets) */
+  @media (min-width: 481px) and (max-width: 768px) {
+    .aboutUs-dev-container {
+      display: flex;
+      align-items: center; 
+      flex-direction: column;
+       width: 100%;
+      height: 450px;
+      margin-top: 120px  ;
+      background: #343888;
+    }
+    
+    .aboutUs-content {
+      width: 100%;
+    }
+    
+    .aboutUs-content h1 { 
+      font-size: 2.2rem;
+      color: #ffffff;
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 5px;
+      padding: 15px;
+    }
+    
+    .aboutUs-content h2 {
+      font-size: 1rem;
+      color: #dddcdc;
+      line-height: 1.5;
+      padding: 15px;
+      text-align: center;
+    }
+    
+    .aboutUs-image {
+      max-width: 400px;
+      height: 100px;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    
+    .aboutUs-image img {
+      width: 100%;
+      height: 200px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+   
+        
+  .aboutUs-tagline{
+    text-align: center;
+    margin: 0px 0px;
+    background: #e7e3e391;
+  }
+  .aboutUs-tagline h1{
+    font-size: 1.5rem;
+    margin-top: 10px;
+    font-weight: 550;
+ 
+  }
+
+  .aboutUs-tagline span{
+    color: #343888;
+    font-weight: 200;
+  }
+  .aboutUs-tagline h3{
+    font-size: 1.2rem;
+    margin-top: 10px;
+    font-weight: 300;
+    color: #0707079a;
+  }
+  .aboutUs-tagline h4{
+    margin-top: 10px;
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: #0707079a;
+  }
+
+  
+  .brief-intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px ;
+    width: 100%;
+  }
+
+  .brief-intro h1{
+    color: #343888;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .brief-intro h2{
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: normal;
+    line-height: 50px ;
+  }
+
+  .intro-info{
+    width: 90%;
+    height: auto;
+  }
+
+  .intro-img{
+    width: 70%;
+    height: auto;
+  }
+  .intro-img img{
+    margin: 0px auto;
+    padding: 5px ;
+    width: 100%;
+    height: auto;
+  }
+
+  
+.leader-wrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  gap: 20px ;
+}
+.leader {
+  text-align: center;
+    width: 90%;
+   
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 5px solid #343888;
+    background: #eef5ff;
+    border-radius: 5px;
+}
+.leader h3 {
+  font-size: 1.5rem;
+    margin: 0;
+    color: #343888;
+}
+
+.leader p{
+  font-size: 1rem;
+}
+
+.leader li{
+  list-style: none;
+}
+  }
+
+  /* Small Devices (Tablets) */
+  @media (min-width: 320px) and (max-width: 480px) {
+    .aboutUs-dev-container {
+      display: flex;
+      align-items: center; 
+      flex-direction: column;
+       width: 100%;
+      height: 400px;
+      margin-top: 120px  ;
+      background: #343888;
+    }
+    
+    .aboutUs-content {
+      width: 100%;
+    }
+    
+    .aboutUs-content h1 { 
+      font-size: 2rem;
+      color: #ffffff;
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 5px;
+      padding: 15px;
+    }
+    
+    .aboutUs-content h2 {
+      font-size: 0.8rem;
+      color: #dddcdc;
+      line-height: 1.5;
+      padding: 15px;
+      text-align: center;
+    }
+    
+    .aboutUs-image {
+      max-width: 300px;
+      height: 100px;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    
+    .aboutUs-image img {
+      width: 100%;
+      height: 200px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+   
+        
+  .aboutUs-tagline{
+    text-align: center;
+    margin: 10px 0px;
+    background: #e7e3e391;
+  }
+  .aboutUs-tagline h1{
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 550;
+ 
+  }
+
+  .aboutUs-tagline span{
+    color: #343888;
+    font-weight: 200;
+  }
+  .aboutUs-tagline h3{
+    font-size: 1rem;
+    margin-top: 10px;
+    font-weight: 300;
+    color: #0707079a;
+  }
+  .aboutUs-tagline h4{
+    margin-top: 10px;
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #0707079a;
+    margin-bottom: 2px;
+  }
+
+   
+  .brief-intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px ;
+    width: 100%;
+  }
+
+  .brief-intro h1{
+    color: #343888;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .brief-intro h2{
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: normal;
+ 
+  }
+
+  .intro-info{
+    width: 90%;
+    height: auto;
+  }
+
+  .intro-img{
+    width: 70%;
+    height: auto;
+  }
+  .intro-img img{
+    margin: 0px auto;
+    padding: 5px ;
+    width: 100%;
+    height: auto;
+  }
+  
+  .capabilities-section h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .about-choose h2 {
+    font-size: 1.5rem;
+    color: #343888;
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+   
+.leader-wrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  gap: 20px ;
+}
+.leader {
+  text-align: center;
+    width: 80%;
+   height: auto;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 5px solid #343888;
+    background: #eef5ff;
+    border-radius: 5px;
+}
+.leader h3 {
+  font-size: 1.4rem;
+    margin: 0;
+    color: #343888;
+}
+
+.leader p{
+  font-size: 0.8rem;
+}
+
+.leader li{
+  list-style: none;
+  font-size: 0.7rem;
+}
+  }
+
+ 

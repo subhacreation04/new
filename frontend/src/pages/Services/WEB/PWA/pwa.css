@@ -1,0 +1,993 @@
+.pwa-dev-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    max-width: 2000px;
+    height: 450px;
+    margin-top: 120px;
+    background: #343888;
+  }
+  
+  .pwa-content {
+    width: 100%;
+  }
+  
+  .pwa-content h1 {
+    font-size: 3rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+    padding: 15px;
+  }
+  
+  .pwa-content h2 {
+    text-align: start;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #dddcdc;
+    line-height: 1.5;
+    padding: 15px;
+    margin-left: 5px;
+  }
+  
+  .pwa-image {
+    width: 1500px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+   
+  }
+  
+  .pwa-image img {
+    width: 1000px;
+    height: 450px;
+    border-radius: 1px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+
+
+  .pwa-why-choose-section {
+    text-align: center;
+    padding: 40px;
+    background: #f8f9fa;
+  }
+  
+  .pwa-why-choose-section h4{
+
+    font-size: 1.5rem;
+    color: #343888a2;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .pwa-why-choose-section h2 {
+    font-size: 3rem;
+    
+    color: #343888  }
+  
+  .pwa-why-choose-section p {
+    font-size: 1.5rem;
+    color: #cbcbd4;
+    margin-bottom: 20px;
+  }
+  
+  .pwa-hexagon-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Wrapper to apply shadows */
+  .pwa-hexagon-wrapper {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .pwa-hexagon {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(165deg, #5b63ff, #4b4c5a);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+  }
+  
+  /* Creating the shadow effect */
+  .pwa-hexagon::after {
+    content: '';
+    position: absolute;
+    top: 10px;  /* Adjust for depth */
+    left: 20px; /* Adjust for depth */
+    right: 5px;
+    width: 100%;
+    height: 100%;
+    background: #343888; /* Dark shadow color */
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    z-index: -1;
+  }
+  
+  .pwa-hexagon span {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .pwa-hexagon h3 {
+    font-size: 1.1rem;
+    color: white;
+    margin: 10px 0;
+  }
+  
+  .pwa-hexagon p {
+    font-size: 0.9rem;
+    max-width: 120px;
+  }
+  
+  /* Process Excellence Section */
+/* Process Excellence Section */
+.pwa-process-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+ 
+  max-width: 2000px;
+  margin: auto;
+}
+
+/* Process Content */
+.process-content {
+  width: 50%;
+}
+
+.process-content h2 {
+  font-size: 3rem;
+  color: #343888;
+  margin-bottom: 20px;
+}
+
+/* Process Cards Container */
+.process-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  width: 100%;
+}
+
+/* Individual Process Card */
+.process-card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  height: 170px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  border-left: 5px solid #5b63ff;
+}
+
+.process-card:hover {
+  transform: translateY(-5px);
+}
+
+.process-card span {
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+  color: #5b63ff;
+  margin-bottom: 10px;
+}
+
+.process-card h3 {
+  font-size: 20px;
+  color: #343888;
+  margin-bottom: 10px;
+}
+
+.process-card p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Process Image */
+.process-image {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.process-image img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+  /* Large Devices (Desktops) */
+  @media screen and (max-width:1440px ) and (min-width:1025px) {
+     /* Main pwa Development Container */
+.pwa-dev-container {
+  display: flex;
+  align-items: center; 
+   width: 100%;
+  height: 450px;
+  margin-top: 120px  ;
+  background: #343888;
+}
+
+.pwa-content {
+  width: 100%;
+}
+
+.pwa-content h1 {
+  font-size: 2.2rem;
+  color: #ffffff;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+
+.pwa-content h2 {
+  font-size: 1.2rem;
+  color: #dddcdc;
+  line-height: 1.5;
+  padding: 15px;
+  
+}
+
+.pwa-image {
+  max-width: 800px;
+  height: 100%;
+  display: flex;
+  
+}
+
+.pwa-image img {
+  width: 100%;
+  height: 450px;
+  border-radius: 1px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.pwa-why-choose-section {
+  text-align: center;
+  padding: 40px;
+  background: #f8f9fa;
+}
+
+.pwa-why-choose-section h4{
+
+  font-size: 1.5rem;
+  color: #343888a2;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.pwa-why-choose-section h2 {
+  font-size: 3rem;
+  
+  color: #343888  }
+
+.pwa-why-choose-section p {
+  font-size: 1.5rem;
+  color: #cbcbd4;
+  margin-bottom: 20px;
+}
+
+.pwa-hexagon-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Wrapper to apply shadows */
+.pwa-hexagon-wrapper {
+  position: relative;
+  width: 210px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pwa-hexagon {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(165deg, #5b63ff, #4b4c5a);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+}
+
+/* Creating the shadow effect */
+.pwa-hexagon::after {
+  content: '';
+  position: absolute;
+  top: 10px;  /* Adjust for depth */
+  left: 20px; /* Adjust for depth */
+  right: 5px;
+  width: 100%;
+  height: 100%;
+  background: #343888; /* Dark shadow color */
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  z-index: -1;
+}
+
+.pwa-hexagon span {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.pwa-hexagon h3 {
+  font-size: 1.2rem;
+   
+  margin: 10px 0;
+}
+
+.pwa-hexagon p {
+  font-size: 0.8rem;
+  max-width: 120px;
+}
+
+/* Process Excellence Section */
+/* Process Excellence Section */
+.pwa-process-section {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 50px;
+
+max-width: 2000px;
+margin: auto;
+}
+
+/* Process Content */
+.process-content {
+width: 80%;
+}
+
+.process-content h2 {
+font-size: 3rem;
+color: #343888;
+margin-bottom: 20px;
+}
+
+/* Process Cards Container */
+.process-cards {
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+gap: 30px;
+width: 100%;
+}
+
+/* Individual Process Card */
+.process-card {
+background: #ffffff;
+padding: 20px;
+border-radius: 10px;
+width: 100%;
+max-width: 500px;
+height: 170px;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+text-align: center;
+transition: transform 0.3s ease-in-out;
+border-left: 5px solid #5b63ff;
+}
+
+.process-card:hover {
+transform: translateY(-5px);
+}
+
+.process-card span {
+display: block;
+font-size: 26px;
+font-weight: bold;
+color: #5b63ff;
+margin-bottom: 10px;
+}
+
+.process-card h3 {
+font-size: 20px;
+color: #343888;
+margin-bottom: 10px;
+}
+
+.process-card p {
+font-size: 14px;
+color: #666;
+}
+.process-image {
+  width: 100%; /* Ensure it adapts to the container */
+  display: flex;
+  justify-content: center;
+}
+
+.process-image img {
+  width: 50vw; /* Adjust width based on screen size */
+  max-width: 500px; /* Maximum size */
+  height: auto; /* Maintain aspect ratio */
+  margin-left: 20px;
+  border-radius: 5px;
+   
+   
+  transition: all 0.3s ease-in-out; /* Smooth resizing */
+}
+  }
+
+
+  /* Medium Devices (Laptops) */
+  @media (min-width: 769px) and (max-width: 1024px) {
+        /* Main pwa Development Container */
+.pwa-dev-container {
+  display: flex;
+  align-items: center; 
+   width: 100%;
+  height: 450px;
+  margin-top: 120px  ;
+  background: #343888;
+}
+
+.pwa-content {
+  width: 100%;
+}
+
+.pwa-content h1 {
+  font-size: 1.8rem;
+  color: #ffffff;
+  margin-bottom: 10px;
+  padding: 15px;
+  text-align: center;
+}
+
+.pwa-content h2 {
+  font-size: 1.2rem;
+  color: #dddcdc;
+  line-height: 1.5;
+  padding: 15px;
+  
+}
+
+.pwa-image {
+  max-width: 480px;
+  height: 100%;
+  display: flex;
+  
+}
+
+.pwa-image img {
+  width: 100%;
+  height: 450px;
+  border-radius: 1px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pwa-why-choose-section {
+  text-align: center;
+  padding: 40px;
+  background: #f8f9fa;
+}
+
+.pwa-why-choose-section h4{
+
+  font-size: 1.5rem;
+  color: #343888a2;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.pwa-why-choose-section h2 {
+  font-size: 2.5rem;
+  
+  color: #343888  }
+
+.pwa-why-choose-section p {
+  font-size: 1.2rem;
+  color: #cbcbd4;
+  margin-bottom: 20px;
+}
+
+.pwa-hexagon-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Wrapper to apply shadows */
+.pwa-hexagon-wrapper {
+  position: relative;
+  width: 210px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pwa-hexagon {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(165deg, #5b63ff, #4b4c5a);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+}
+
+/* Creating the shadow effect */
+.pwa-hexagon::after {
+  content: '';
+  position: absolute;
+  top: 10px;  /* Adjust for depth */
+  left: 20px; /* Adjust for depth */
+  right: 5px;
+  width: 100%;
+  height: 100%;
+  background: #343888; /* Dark shadow color */
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  z-index: -1;
+}
+
+.pwa-hexagon span {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.pwa-hexagon h3 {
+  font-size: 1.2rem;
+   
+  margin: 10px 0;
+}
+
+.pwa-hexagon p {
+  font-size: 0.7rem;
+  max-width: 120px;
+}
+
+/* Process Excellence Section */
+/* Process Excellence Section */
+.pwa-process-section {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 50px;
+
+max-width: 2000px;
+margin: auto;
+}
+
+/* Process Content */
+.process-content {
+width: 80%;
+}
+
+.process-content h2 {
+font-size: 2.5rem;
+ 
+color: #343888;
+margin-bottom: 20px;
+}
+
+/* Process Cards Container */
+.process-cards {
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+gap: 30px;
+width: 100%;
+}
+
+/* Individual Process Card */
+.process-card {
+background: #ffffff;
+padding: 20px;
+border-radius: 10px;
+width: 100%;
+max-width: 350px;
+height: 150px;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+text-align: center;
+transition: transform 0.3s ease-in-out;
+border-left: 5px solid #5b63ff;
+}
+
+.process-card:hover {
+transform: translateY(-5px);
+}
+
+.process-card span {
+display: block;
+font-size: 26px;
+font-weight: bold;
+color: #5b63ff;
+margin-bottom: 10px;
+}
+
+.process-card h3 {
+font-size: 20px;
+color: #343888;
+margin-bottom: 10px;
+}
+
+.process-card p {
+font-size: 14px;
+color: #666;
+}
+.process-image {
+  width: 100%; /* Ensure it adapts to the container */
+  display: flex;
+  justify-content: center;
+}
+
+.process-image img {
+  width: 40vw; /* Adjust width based on screen size */
+  max-width: 350px; /* Maximum size */
+  height: auto; /* Maintain aspect ratio */
+  margin-left: 20px;
+  border-radius: 5px;
+   
+   
+  transition: all 0.3s ease-in-out; /* Smooth resizing */
+}
+  }
+  
+    /* Small Devices (Tablets) */
+    @media (min-width: 481px) and (max-width: 768px) {
+      /* Main pwa Development Container */
+.pwa-dev-container {
+  display: flex;
+  align-items: center; 
+  flex-direction: column;
+   width: 100%;
+  height: 450px;
+  margin-top: 120px  ;
+  background: #343888;
+}
+
+.pwa-content {
+  width: 100%;
+}
+
+.pwa-content h1 { 
+  font-size: 2.2rem;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding: 15px;
+}
+
+.pwa-content h2 {
+  font-size: 1.2rem;
+  color: #dddcdc;
+  line-height: 1.5;
+  padding: 15px;
+  
+}
+
+.pwa-image {
+  max-width: 400px;
+  height: 100px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.pwa-image img {
+  width: 100%;
+  height: 180px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.pwa-why-choose-section {
+  text-align: center;
+  padding: 40px;
+  background: #f8f9fa;
+}
+
+.pwa-why-choose-section h4{
+
+  font-size: 1.5rem;
+  color: #343888a2;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.pwa-why-choose-section h2 {
+  font-size: 2.5rem;
+  
+  color: #343888  }
+
+.pwa-why-choose-section p {
+  font-size: 1.2rem;
+  color: #cbcbd4;
+  margin-bottom: 20px;
+}
+
+.pwa-hexagon-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Wrapper to apply shadows */
+.pwa-hexagon-wrapper {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pwa-hexagon {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(165deg, #5b63ff, #4b4c5a);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+}
+
+/* Creating the shadow effect */
+.pwa-hexagon::after {
+  content: '';
+  position: absolute;
+  top: 10px;  /* Adjust for depth */
+  left: 20px; /* Adjust for depth */
+  right: 5px;
+  width: 100%;
+  height: 100%;
+  background: #343888; /* Dark shadow color */
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  z-index: -1;
+}
+
+.pwa-hexagon span {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.pwa-hexagon h3 {
+  font-size: 1.2rem;
+   
+  margin: 10px 0;
+}
+
+.pwa-hexagon p {
+  font-size: 0.7rem;
+  max-width: 120px;
+}
+
+/* Process Excellence Section */
+/* Process Excellence Section */
+.pwa-process-section {
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+ 
+padding: 50px;
+max-width: 2500px;
+margin: auto;
+}
+
+/* Process Content */
+.process-content {
+width: 100%;
+}
+
+.process-content h2 {
+font-size: 2.5rem;
+ 
+color: #343888;
+margin-bottom: 20px;
+}
+
+/* Process Cards Container */
+.process-cards {
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+gap: 30px;
+width: 100%;
+}
+
+/* Individual Process Card */
+.process-card {
+background: #ffffff;
+padding: 20px;
+border-radius: 10px;
+width: 100%;
+max-width: 380px;
+margin: 0px auto; 
+height: 150px;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+text-align: center;
+transition: transform 0.3s ease-in-out;
+border-left: 5px solid #5b63ff;
+}
+
+.process-card:hover {
+transform: translateY(-5px);
+}
+
+.process-card span {
+display: block;
+font-size: 33px;
+font-weight: bold;
+color: #5b63ff;
+margin-bottom: 10px;
+}
+
+.process-card h3 {
+font-size: 26px;
+color: #343888;
+margin-bottom: 10px;
+}
+
+.process-card p {
+font-size: 20px;
+color: #666;
+}
+.process-image {
+  visibility: hidden;
+}
+
+ 
+    }
+
+
+    
+  @media (min-width: 320px) and (max-width: 480px) {
+
+    .pwa-dev-container {
+      display: flex;
+      align-items: center; 
+      flex-direction: column;
+       width: 100%;
+      height: 400px;
+      margin-top: 120px  ;
+      background: #343888;
+    }
+    
+    .pwa-content {
+      width: 100%;
+    }
+    
+    .pwa-content h1 { 
+      font-size: 2rem;
+      color: #ffffff;
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 5px;
+      padding: 15px;
+    }
+    
+    .pwa-content h2 {
+      font-size: 0.8rem;
+      color: #dddcdc;
+      line-height: 1.5;
+      padding: 15px;
+      text-align: center;
+    }
+    
+    .pwa-image {
+      max-width: 300px;
+      height: 100px;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    
+    .pwa-image img {
+      width: 100%;
+      height: 200px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+  
+  
+/* Process Excellence Section */
+/* Process Excellence Section */
+.pwa-process-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+   
+  padding: 50px;
+  max-width: 2500px;
+  margin: auto;
+  }
+  
+  /* Process Content */
+  .process-content {
+  width: 100%;
+  }
+  
+  .process-content h2 {
+  font-size: 2.5rem;
+   
+  color: #343888;
+  margin-bottom: 20px;
+  }
+  
+  /* Process Cards Container */
+  .process-cards {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 30px;
+  width: 100%;
+  }
+  
+  /* Individual Process Card */
+  .process-card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 380px;
+  margin: 0px auto; 
+  height: 150px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  border-left: 5px solid #5b63ff;
+  }
+  
+  .process-card:hover {
+  transform: translateY(-5px);
+  }
+  
+  .process-card span {
+  display: block;
+  font-size: 33px;
+  font-weight: bold;
+  color: #5b63ff;
+  margin-bottom: 10px;
+  }
+  
+  .process-card h3 {
+  font-size: 26px;
+  color: #343888;
+  margin-bottom: 10px;
+  }
+  
+  .process-card p {
+  font-size: 20px;
+  color: #666;
+  }
+  .process-image {
+    visibility: hidden;
+  }
+  
+  }

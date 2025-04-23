@@ -1,0 +1,757 @@
+/* Main payment Development Container */
+.payment-dev-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    max-width: 2000px;
+    height: 450px;
+    margin-top: 120px;
+    background: #343888;
+  }
+  
+  .payment-content {
+    width: 100%;
+  }
+  
+  .payment-content h1 {
+    font-size: 3rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+    padding: 15px;
+  }
+  
+  .payment-content h2 {
+    text-align: left;
+    font-size: 1.2rem;
+    color: #dddcdc;
+    line-height: 1.5;
+    padding: 15px;
+    margin-left: 5px;
+  }
+  
+  .payment-image {
+    width: 1500px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .payment-image img {
+    width: 1000px;
+    height: 450px;
+    border-radius: 1px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+
+/* ======= Payment Methods Section (Card Layout) ======= */
+.payment-methods {
+  max-width: 1900px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.payment-methods h2 {
+  font-size: 2rem;
+  color: #343888;
+  margin-bottom: 16px;
+  border-bottom: 4px solid #343888;
+  display: inline-block;
+  padding-bottom: 6px;
+}
+
+.payment-methods ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.payment-methods ul li {
+  font-size: 1.5rem;
+  color: #333;
+  padding: 16px;
+  background: #fff;
+  border-left: 6px solid #343888;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  width: 17%;
+  height: 170px;
+  text-align: left;
+  transition: 0.3s ease-in-out;
+}
+
+.payment-methods ul li:hover {
+  transform: scale(1.05);
+}
+
+.payment-methods ul li::before {
+  content: "💳";
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+/* ======= Payment Gateways Section (Grid Layout) ======= */
+.payment-gateways {
+  max-width: 1500px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #343888;
+  color: white;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.payment-gateways h2 {
+  font-size: 28px;
+  color: white;
+  border-bottom: 4px solid white;
+  display: inline-block;
+  padding-bottom: 6px;
+  margin-bottom: 20px;
+}
+
+.payment-gateways ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.payment-gateways ul li {
+  font-size: 18px;
+  background: white;
+  color: #343888;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
+}
+
+.payment-gateways ul li:hover {
+  background: #5359d4af;
+  color: white;
+}
+
+.payment-gateways ul li::before {
+  content: "🌐";
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+
+
+
+/* ======= Payment Policies Section (Boxed Layout) ======= */
+.payment-policies {
+  width: 100%;
+  margin: 40px auto;
+  padding: 25px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: inset 0 0 12px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.payment-policies h2 {
+  font-size: 28px;
+  color: #343888;
+  margin-bottom: 16px;
+  border-bottom: 4px solid #343888;
+  display: inline-block;
+  padding-bottom: 6px;
+}
+
+.payment-policies ul {
+  width: 950px;
+  list-style: none;
+  padding: 0;
+}
+
+.payment-policies ul li {
+  font-size: 18px;
+  padding: 14px;
+  background: #fff;
+  border-left: 6px solid #343888;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+}
+
+.payment-policies ul li::before {
+  content: "⚖";
+  font-size: 22px;
+  color: #343888;
+  margin-right: 10px;
+}
+
+
+.policy {
+
+  width: 850px;
+  height: 400px;
+  margin-top: -700px;
+  margin-left: 1000px;
+}
+/* ======= Responsive Design ======= */
+@media (max-width: 768px) {
+  .payment-dev-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .payment-image {
+    margin-top: 20px;
+  }
+
+  .payment-methods ul, .payment-gateways ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .payment-methods ul li {
+    width: 100%;
+  }
+
+  .payment-policies {
+    padding: 20px;
+  }
+}
+
+
+
+ /* Large Devices (Desktops) */
+ @media screen and (max-width:1440px ) and (min-width:1025px) {
+  /* Main ad Development Container */
+  .payment-dev-container {
+   display: flex;
+   align-items: center; 
+    width: 100%;
+   height: 450px;
+   margin-top: 120px  ;
+   background: #343888;
+ }
+ 
+ .payment-content {
+   width: 100%;
+ }
+ 
+ .payment-content h1 {
+   font-size: 2.2rem;
+   color: #ffffff;
+   margin-bottom: 10px;
+   padding: 15px;
+ }
+ 
+ .payment-content h2 {
+   font-size: 1.2rem;
+   color: #dddcdc;
+   line-height: 1.5;
+   padding: 15px;
+   
+ }
+ 
+ .payment-image {
+   max-width: 800px;
+   height: 100%;
+   display: flex;
+   
+ }
+ 
+ .payment-image img {
+   width: 100%;
+   height: 450px;
+   border-radius: 1px;
+   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+ }
+
+ 
+/* ======= Payment Methods Section (Card Layout) ======= */
+.payment-methods {
+  max-width: 1500px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.payment-methods h2 {
+  font-size: 2rem;
+  color: #343888;
+  margin-bottom: 16px;
+  border-bottom: 4px solid #343888;
+  display: inline-block;
+  padding-bottom: 6px;
+}
+
+.payment-methods ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.payment-methods ul li {
+  font-size: 1.5rem;
+  color: #333;
+  padding: 16px;
+  background: #fff;
+  border-left: 6px solid #343888;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  height: 170px;
+  text-align: left;
+  transition: 0.3s ease-in-out;
+}
+
+.payment-methods ul li:hover {
+  transform: scale(1.05);
+}
+
+.payment-methods ul li::before {
+  content: "💳";
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+
+/* ======= Payment Policies Section (Boxed Layout) ======= */
+.payment-policies {
+  width: 100%;
+  margin: 40px auto;
+  padding: 10px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: inset 0 0 12px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.payment-policies h2 {
+  font-size: 28px;
+  color: #343888;
+  margin-bottom: 16px;
+  border-bottom: 4px solid #343888;
+  display: inline-block;
+  padding-bottom: 6px;
+}
+
+.payment-policies ul {
+  margin: 10px auto;
+  width: 100%;
+  height: auto;
+  max-width: 1000px ;
+  list-style: none;
+  padding: 0;
+}
+
+.payment-policies ul li {
+  font-size: 22px;
+  padding: 14px;
+  background: #fff;
+  border-left: 6px solid #343888;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.payment-policies ul li::before {
+  content: "⚖";
+  font-size: 24px;
+  color: #343888;
+  margin-right: 10px;
+}
+
+
+.policy {
+  margin:50px auto ;
+  width: 100%;
+  max-width: 50% ;
+  height: auto; 
+  margin-left: 200px ;
+}
+
+ 
+}
+
+
+/* Medium Devices (Laptops) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Main ad Development Container */
+  .payment-dev-container {
+   display: flex;
+   align-items: center; 
+    width: 100%;
+   height: 450px;
+   margin-top: 120px  ;
+   background: #343888;
+ }
+ 
+ .payment-content {
+   width: 100%;
+ }
+ 
+ .payment-content h1 {
+   font-size: 2.2rem;
+   color: #ffffff;
+   margin-bottom: 10px;
+   padding: 15px;
+ }
+ 
+ .payment-content h2 {
+   font-size: 1.2rem;
+   color: #dddcdc;
+   line-height: 1.5;
+   padding: 15px;
+   
+ }
+ 
+ .payment-image {
+   max-width: 800px;
+   height: 100%;
+   display: flex;
+   
+ }
+ 
+ .payment-image img {
+   width: 100%;
+   height: 450px;
+   border-radius: 1px;
+   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+ }
+
+.payment-methods ul li {
+  font-size: 1.5rem;
+  color: #333;
+  padding: 16px;
+  background: #fff;
+  border-left: 6px solid #343888;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  width: 40%;
+  height: 170px;
+  text-align: left;
+  transition: 0.3s ease-in-out;
+}
+
+
+
+/* ======= Payment Policies Section (Boxed Layout) ======= */
+.payment-policies {
+  width: 100%;
+  margin: 40px auto;
+  padding: 10px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: inset 0 0 12px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.payment-policies h2 {
+  font-size: 28px;
+  color: #343888;
+  margin-bottom: 16px;
+  border-bottom: 4px solid #343888;
+  display: inline-block;
+  padding-bottom: 6px;
+}
+
+.payment-policies ul {
+  margin: 10px auto;
+  width: 100%;
+  height: auto;
+  max-width: 1000px ;
+  list-style: none;
+  padding: 0;
+}
+
+.payment-policies ul li {
+  font-size: 22px;
+  padding: 14px;
+  background: #fff;
+  border-left: 6px solid #343888;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.payment-policies ul li::before {
+  content: "⚖";
+  font-size: 24px;
+  color: #343888;
+  margin-right: 10px;
+}
+
+
+.policy {
+  margin:50px auto ;
+  width: 100%;
+  max-width: 50% ;
+  height: auto; 
+  margin-left: 200px ;
+}
+
+ 
+}
+
+/* Small Devices (Tablets) */
+@media (min-width: 481px) and (max-width: 768px) {
+ .payment-dev-container {
+   display: flex;
+   align-items: center; 
+   flex-direction: column;
+    width: 100%;
+   height: 450px;
+   margin-top: 120px  ;
+   background: #343888;
+ }
+ 
+ .payment-content {
+   width: 100%;
+ }
+ 
+ .payment-content h1 { 
+   font-size: 2.2rem;
+   color: #ffffff;
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 5px;
+   padding: 15px;
+ }
+ 
+ .payment-content h2 {
+   font-size: 1rem;
+   color: #dddcdc;
+   line-height: 1.5;
+   padding: 15px;
+   text-align: center;
+ }
+ 
+ .payment-image {
+   max-width: 400px;
+   height: 100px;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+ }
+ 
+ .payment-image img {
+   width: 100%;
+   height: 200px;
+   border-radius: 10px;
+   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+ }
+
+
+ 
+.payment-methods ul li {
+  font-size: 1.5rem;
+  margin: 10px auto;
+  color: #333;
+  padding: 16px;
+  background: #fff;
+  border-left: 6px solid #343888;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  width: 70%;
+  height: auto;
+  text-align: left;
+  transition: 0.3s ease-in-out;
+}
+
+/* ======= Payment Policies Section (Boxed Layout) ======= */
+.payment-policies {
+  width: 100%;
+  margin: 40px auto;
+  padding: 10px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: inset 0 0 12px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.payment-policies h2 {
+  font-size: 28px;
+  color: #343888;
+  margin-bottom: 16px;
+  border-bottom: 4px solid #343888;
+  display: inline-block;
+  padding-bottom: 6px;
+}
+
+.payment-policies ul {
+  margin: 10px auto;
+  width: 100%;
+  height: auto;
+  max-width: 1000px ;
+  list-style: none;
+  padding: 0;
+}
+
+.payment-policies ul li {
+  font-size: 20px;
+  padding: 14px;
+  background: #fff;
+  border-left: 6px solid #343888;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.payment-policies ul li::before {
+  content: "⚖";
+  font-size: 24px;
+  color: #343888;
+  margin-right: 10px;
+}
+
+
+.policy {
+  margin:50px auto ;
+  width: 100%;
+  max-width: 300px  ;
+  height: auto; 
+  margin-left: 100px ;
+}
+
+ 
+}
+
+/* Small Devices (Tablets) */
+@media (min-width: 320px) and (max-width: 480px) {
+  .payment-dev-container {
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+     width: 100%;
+    height: 400px;
+    margin-top: 120px  ;
+    background: #343888;
+  }
+  
+  .payment-content {
+    width: 100%;
+  }
+  
+  .payment-content h1 { 
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 15px;
+  }
+  
+  .payment-content h2 {
+    font-size: 0.8rem;
+    color: #dddcdc;
+    line-height: 1.5;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .payment-image {
+    max-width: 300px;
+    height: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .payment-image img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+ 
+ 
+  
+ .payment-methods ul li {
+   font-size: 1rem;
+   margin: 10px auto;
+   color: #333;
+   padding: 16px;
+   background: #fff;
+   border-left: 6px solid #343888;
+   border-radius: 10px;
+   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+   width: 80%;
+   height: auto;
+   text-align: left;
+   transition: 0.3s ease-in-out;
+ }
+ 
+ /* ======= Payment Policies Section (Boxed Layout) ======= */
+ .payment-policies {
+   width: 100%;
+   margin: 40px auto;
+   padding: 10px;
+   background: #f9f9f9;
+   border-radius: 12px;
+   box-shadow: inset 0 0 12px rgba(0, 0, 0, 0.1);
+   text-align: left;
+ }
+ 
+ .payment-policies h2 {
+   font-size: 22px;
+   text-align: center;
+   color: #343888;
+   margin-bottom: 16px;
+   border-bottom: 4px solid #343888;
+   display: inline-block;
+   padding-bottom: 6px;
+ }
+ 
+ .payment-policies ul {
+   margin: 10px auto;
+   width: 100%;
+   height: auto;
+   max-width: 1000px ;
+   list-style: none;
+   padding: 0;
+ }
+ 
+ .payment-policies ul li {
+   font-size: 12px;
+   padding: 14px;
+   background: #fff;
+   border-left: 6px solid #343888;
+   border-radius: 10px;
+   margin-bottom: 12px;
+   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+ }
+ 
+ .payment-policies ul li::before {
+   content: "⚖";
+   font-size: 24px;
+   color: #343888;
+   margin-right: 10px;
+ }
+ 
+ 
+ .policy {
+   margin:50px auto ;
+   width: 100%;
+   max-width: 200px  ;
+   height: auto; 
+   margin-left: 50px ;
+ }
+ 
+  
+ }

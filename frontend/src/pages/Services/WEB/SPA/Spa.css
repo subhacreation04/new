@@ -1,0 +1,640 @@
+.spa-dev-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    max-width: 2000px;
+    height: 450px;
+    margin-top: 120px;
+    background: #343888;
+  }
+  
+  .spa-content {
+    width: 100%;
+  }
+  
+  .spa-content h1 {
+    font-size: 3rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+    padding: 15px;
+  }
+  
+  .spa-content h2 {
+    text-align: left;
+    font-size: 1.2rem;
+    color: #dddcdc;
+    line-height: 1.5;
+    padding: 15px;
+    margin-left: 5px;
+  }
+  
+  .spa-image {
+    width: 1500px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+  
+  }
+  
+  .spa-image img {
+    width: 1000px;
+    height: 450px;
+    border-radius: 1px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .spa-why-choose {
+    text-align: center;
+    margin: 60px auto;
+ 
+  }
+  
+  .spa-why-choose-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    max-width: 2000px;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .spa-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .spa-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .spa-highlighted {
+    background: #6367ac8f;
+    color: #fff;
+  }
+
+ 
+  .spa-card h3{
+    font-size: 2rem;
+  }
+
+  .spa-highlighted .spa-card h3{
+    color: #5f1f1f;
+  }
+
+  .spa-card p {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.5;
+  }
+  .spa-icon {
+    font-size: 40px;
+    color: #343888;
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 992px) {
+    .spa-why-choose-cards {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns on tablets */
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .spa-why-choose-cards {
+      grid-template-columns: repeat(1, 1fr); /* 1 column on mobile */
+    }
+  }
+  
+
+  .spa-process-container {
+    text-align: center;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensures left-right alignment */
+    max-width: 1200px; /* Adjust width as needed */
+    flex-wrap: nowrap; /* Prevents wrapping */
+    gap: 40px; /* Adds space between elements */
+  }
+  
+  /* Left Section: Process Steps */
+  .spa-process-steps {
+    flex: 1; /* Takes available space */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    gap: 15px;
+    min-width: 50%;
+  }
+  
+  /* Right Section: Image */
+  .process {
+    flex: 1; /* Takes available space */
+    width: 800px;
+    max-width: 100%;
+    height: auto;
+    margin-left: 50px;
+  }
+
+  .process-text{
+    font-size: 3rem;
+    text-align: center;
+    margin: 30px 0px ;
+  }
+  
+  /* Individual Process Steps */
+  .spa-step {
+    background: #343888;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 200px;
+    flex: 1;
+    width: 700px;
+    color: white;
+    font-size: 2rem;
+    height: 120px;
+    box-shadow: 7px 7px 2px #565658;
+    text-align: center;
+    position: relative;
+    margin-bottom: 10px;
+  }
+  
+  .spa-step:not(:last-child)::after {
+    content: "⬇";
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translateX(-50%);
+    font-size: 60px;
+    color: rgba(1, 8, 10, 0.678);
+   
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 992px) {
+    .spa-process-container {
+      flex-direction: column; /* Stack on smaller screens */
+      align-items: center;
+    }
+  
+    .spa-process-steps {
+      min-width: 100%;
+    }
+  
+    .process {
+      margin-left: 0;
+      margin-top: 20px;
+      width: 80%; /* Reduce image width on smaller screens */
+    }
+  }
+
+  
+  /* Large Devices (Desktops) */
+  @media screen and (max-width:1440px ) and (min-width:1025px) {
+     /* Main spa Development Container */
+.spa-dev-container {
+  display: flex;
+  align-items: center; 
+   width: 100%;
+  height: 450px;
+  margin-top: 120px  ;
+  background: #343888;
+}
+
+.spa-content {
+  width: 100%;
+}
+
+.spa-content h1 {
+  font-size: 2.2rem;
+  color: #ffffff;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+
+.spa-content h2 {
+  font-size: 1.2rem;
+  color: #dddcdc;
+  line-height: 1.5;
+  padding: 15px;
+  
+}
+
+.spa-image {
+  max-width: 800px;
+  height: 100%;
+  display: flex;
+  
+}
+
+.spa-image img {
+  width: 100%;
+  height: 450px;
+  border-radius: 1px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.spa-process-container {
+  text-align: center;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; /* Ensures left-right alignment */
+  max-width: 1200px; /* Adjust width as needed */
+  flex-wrap: nowrap; /* Prevents wrapping */
+  gap: 40px; /* Adds space between elements */
+}
+
+/* Left Section: Process Steps */
+.spa-process-steps {
+  flex: 1; /* Takes available space */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  gap: 15px;
+  min-width: 50%;
+}
+
+/* Right Section: Image */
+.process {
+  flex: 1; /* Takes available space */
+  width: 800px;
+  max-width: 100%;
+  height: auto;
+  margin-left: 50px;
+}
+.process-text{
+  font-size: 3.5rem;
+  text-align: center;
+  color: #343888;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+/* Individual Process Steps */
+.spa-step {
+  background: #343888;
+  padding: 20px;
+  border-radius: 10px;
+  min-width: 200px;
+  flex: 1;
+  width: 700px;
+  color: white;
+  font-size: 2rem;
+  height: 120px;
+  box-shadow: 7px 7px 2px #565658;
+  text-align: center;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.spa-step:not(:last-child)::after {
+  content: "⬇";
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translateX(-50%);
+  font-size: 60px;
+  color: rgba(1, 8, 10, 0.678);
+ 
+}
+
+  }
+
+
+  /* Medium Devices (Laptops) */
+  @media (min-width: 769px) and (max-width: 1024px) {
+        /* Main spa Development Container */
+.spa-dev-container {
+  display: flex;
+  align-items: center; 
+   width: 100%;
+  height: 450px;
+  margin-top: 120px  ;
+  background: #343888;
+}
+
+.spa-content {
+  width: 100%;
+}
+
+.spa-content h1 {
+  font-size: 2.2rem;
+  color: #ffffff;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+
+.spa-content h2 {
+  font-size: 1.2rem;
+  color: #dddcdc;
+  line-height: 1.5;
+  padding: 15px;
+  
+}
+
+.spa-image {
+  max-width: 800px;
+  height: 100%;
+  display: flex;
+  
+}
+
+.spa-image img {
+  width: 100%;
+  height: 450px;
+  border-radius: 1px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.spa-process-container {
+  text-align: center;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; /* Ensures left-right alignment */
+  max-width: 1200px; /* Adjust width as needed */
+  flex-wrap: nowrap; /* Prevents wrapping */
+  gap: 40px; /* Adds space between elements */
+}
+
+/* Left Section: Process Steps */
+.spa-process-steps {
+  flex: 1; /* Takes available space */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  gap: 15px;
+  min-width: 50%;
+}
+
+/* Right Section: Image */
+.process {
+  flex: 1; /* Takes available space */
+  width: 500px;
+  max-width: 100%;
+  height: auto;
+  margin-left: 50px;
+}
+.process-text{
+  font-size: 3.5rem;
+  text-align: center;
+  color: #343888;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+/* Individual Process Steps */
+.spa-step {
+  background: #343888;
+  padding: 20px;
+  border-radius: 10px;
+  min-width: 200px;
+  flex: 1;
+  width: 700px;
+  color: white;
+  font-size: 2rem;
+  height: 120px;
+  box-shadow: 7px 7px 2px #565658;
+  text-align: center;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.spa-step:not(:last-child)::after {
+  content: "⬇";
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translateX(-50%);
+  font-size: 60px;
+  color: rgba(1, 8, 10, 0.678);
+ 
+}
+
+  }
+  
+    /* Small Devices (Tablets) */
+    @media (min-width: 481px) and (max-width: 768px) {
+      /* Main spa Development Container */
+.spa-dev-container {
+  display: flex;
+  align-items: center; 
+  flex-direction: column;
+  text-align: center;
+   width: 100%;
+  height: 450px;
+  margin-top: 120px  ;
+  background: #343888;
+}
+
+.spa-content {
+  width: 100%;
+}
+
+.spa-content h1 { 
+  font-size: 2.2rem;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding: 15px;
+}
+
+.spa-content h2 {
+  font-size: 1.2rem;
+  color: #dddcdc;
+  line-height: 1.5;
+  padding: 15px;
+  
+}
+
+.spa-image {
+  max-width: 400px;
+  height: 100px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.spa-image img {
+  width: 100%;
+  height: 220px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.spa-process-container {
+  text-align: center;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; /* Ensures left-right alignment */
+  max-width: 3dvh; /* Adjust width as needed */
+  flex-wrap: nowrap; /* Prevents wrapping */
+  gap: 40px; /* Adds space between elements */
+}
+
+/* Left Section: Process Steps */
+.spa-process-steps {
+  flex: 1; /* Takes available space */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  gap: 15px;
+  min-width: 50%;
+}
+
+/* Right Section: Image */
+.process {
+  flex: 1; /* Takes available space */
+  width: 400px;
+  max-width: 400px;
+  height: auto;
+  margin-left: 50px;
+}
+.process-text{
+  font-size: 3.5rem;
+  text-align: center;
+  color: #343888;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+/* Individual Process Steps */
+.spa-step {
+  margin:8px 50px;
+  background: #343888;
+  padding: 10px;
+  border-radius: 10px;
+  min-width: 400px;
+  flex: 1;
+  width: 80%;
+  color: white;
+  font-size: 2rem;
+  height: 120px;
+  box-shadow: 7px 7px 2px #565658;
+  text-align: center;
+  position: relative;
+
+}
+
+.spa-step:not(:last-child)::after {
+  content: "⬇";
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  transform: translateX(-50%);
+  font-size: 60px;
+  color: rgba(1, 8, 10, 0.767);
+ 
+}
+
+    }
+  
+
+    
+  @media (min-width: 320px) and (max-width: 480px) {
+
+    .spa-dev-container {
+      display: flex;
+      align-items: center; 
+      flex-direction: column;
+       width: 100%;
+      height: 400px;
+      margin-top: 120px  ;
+      background: #343888;
+    }
+    
+    .spa-content {
+      width: 100%;
+    }
+    
+    .spa-content h1 { 
+      font-size: 2rem;
+      color: #ffffff;
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 5px;
+      padding: 15px;
+    }
+    
+    .spa-content h2 {
+      font-size: 0.8rem;
+      color: #dddcdc;
+      line-height: 1.5;
+      padding: 15px;
+      text-align: center;
+    }
+    
+    .spa-image {
+      max-width: 300px;
+      height: 100px;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    
+    .spa-image img {
+      width: 100%;
+      height: 200px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+  
+  /* Right Section: Image */
+.process {
+  flex: 1; /* Takes available space */
+  width: 400px;
+  max-width: 400px;
+  height: auto;
+  margin-left: 50px;
+}
+.process-text{
+  font-size: 3.5rem;
+  text-align: center;
+  color: #343888;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+/* Individual Process Steps */
+.spa-step {
+  margin:8px 50px;
+  background: #343888;
+  padding: 10px;
+  border-radius: 10px;
+  min-width: 400px;
+  flex: 1;
+  width: 80%;
+  color: white;
+  font-size: 2rem;
+  height: 120px;
+  box-shadow: 7px 7px 2px #565658;
+  text-align: center;
+  position: relative;
+
+}
+
+.spa-step:not(:last-child)::after {
+  content: "⬇";
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  transform: translateX(-50%);
+  font-size: 60px;
+  color: rgba(1, 8, 10, 0.767);
+ 
+}
+
+  
+  }
